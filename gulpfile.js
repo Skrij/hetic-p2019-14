@@ -15,6 +15,6 @@ return gulp.src('src/styles/scss/*.scss')
 .pipe(gulp.dest('src/styles'))
 });
 
-gulp.task('default', function () {
+gulp.task('default', ["sass"], function () {
   gulp.watch('src/css/scss/*.scss', ['sass']);
 });
