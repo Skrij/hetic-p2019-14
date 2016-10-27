@@ -10,7 +10,8 @@
     <!--[if lt IE 9]>
     <script src="src/js/libs/html5shiv.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="src/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/sta.css">
+    <script src="./assets/scripts/main.js"></script>
   </head>
   <body>
    
