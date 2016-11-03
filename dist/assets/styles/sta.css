@@ -1,3 +1,20 @@
 h1 {
   color: blue;
   padding: 30px; }
+
+body {
+  font-family: roboto;
+  margin: 0; }
+
+.join_container {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100vw;
+  background-color: #1dabad;
+  color: #fefefe; }
+  .join_container .join_content {
+    padding: 15px 60px; }
