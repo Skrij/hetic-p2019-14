@@ -7,7 +7,7 @@
 			<div class="intro__action">
 				<span class="intro__action__sign">
 					<img src="" alt="">
-					<p class="action__sign__text">Signez</p>
+					<p class="action__sign__text"><a href="main-page.php">Signez</a></p>
 				</span>
 				<span class="intro__action__share">
 					<img src="" alt="">
@@ -16,7 +16,6 @@
 			</div>
 		</div>
 	</div>	
-	
 </div>
 
 <?php include './partials/footer.php';?>
