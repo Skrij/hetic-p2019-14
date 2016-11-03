@@ -1,6 +1,27 @@
-h1 {
-  color: blue;
-  padding: 30px; }
+.home {
+  margin: 0;
+  background-color: #1dabac; }
+
+.intro {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 0;
+  text-align: center; }
+
+.intro__container p.intro__datelimit {
+  font-size: 3em; }
+
+.intro__container p.intro__title {
+  font-size: 1.2em; }
 
 body {
   font-family: roboto;
