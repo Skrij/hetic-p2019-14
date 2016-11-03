@@ -1,12 +1,12 @@
-h1 {
-  color: blue;
-  padding: 30px; }
+body {
+  font-family: roboto;
+  margin: 0; }
 
 body {
   font-family: roboto;
   margin: 0; }
 
-.join_container {
+.join__container {
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,5 +16,5 @@ body {
   width: 100vw;
   background-color: #1dabad;
   color: #fefefe; }
-  .join_container .join_content {
+  .join__container .join__content {
     padding: 15px 60px; }
