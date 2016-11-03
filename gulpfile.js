@@ -20,7 +20,11 @@ gulp.task('php', function() {
 	.pipe(gulp.dest('dist/'))
 });
 
-gulp.task('build', ['default', 'php']);
+gulp.task('watch-php', function(){
+	gulp.watch('app/**/*.php',['php']);
+});
+
+gulp.task('build', ['default', 'watch-php']);
 
 gulp.task('default', ["sass"], function () {
   gulp.watch('app/scss/*.scss', ['sass']);
