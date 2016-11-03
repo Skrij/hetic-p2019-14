@@ -15,6 +15,13 @@ gulp.task('sass', function() {
 	.pipe(gulp.dest('dist/assets/styles'))
 });
 
+gulp.task('php', function() {
+	return gulp.src('app/**/*.php')
+	.pipe(gulp.dest('dist/'))
+});
+
+gulp.task('build', ['sass', 'php']);
+
 gulp.task('default', ["sass"], function () {
   gulp.watch('app/scss/*.scss', ['sass']);
 });
