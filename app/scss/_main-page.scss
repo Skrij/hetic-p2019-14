@@ -1,0 +1,16 @@
+body {
+    font-family: roboto;
+    margin: 0;
+}
+
+.join__container {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    background-color: #1dabad;
+    color: #fefefe;
+    .join__content {
+        padding: 15px 60px;
+    }
+}

@@ -14,7 +14,3 @@
     <script src="./assets/scripts/main.js"></script>
   </head>
   <body>
-   
-    <header>
-      <h1>Sauver l'arctique</h1>
-    </header>
