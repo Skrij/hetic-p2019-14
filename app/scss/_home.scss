@@ -22,9 +22,6 @@
             border-radius: 8px;
         }
     }
-    @include large {
-        
-    }
 }
 
 .intro {
@@ -71,19 +68,35 @@
     }
 }
 
+.action__button {
+    transition: transform .3s ease;
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+
 .intro__more {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-left: 50px;
+    margin-left: 60px;
+    transition: transform .3s ease;
     a {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
         text-decoration: none;
         color: #fefefe;
         font-size: 1.2em;
         font-weight: 200;
         margin: 0 20px;
+        img {
+            margin-left: 20px;
+        }
     }
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    } 
     @include medium {
-        margin-left: 60px;
+        margin-left: 70px;
     }
 }

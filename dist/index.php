@@ -19,8 +19,9 @@
         </div> <!-- .intro__action -->
 
         <div class="intro__more">
-        	<a href="main-page.php"> En savoir plus </a>
-        	<img src="assets/images/icon-more.svg" >
+        	<a href="main-page.php"> En savoir plus 
+        	   <img src="assets/images/icon-more.svg" >
+            </a>
         </div>
 
     </div> <!-- .intro -->
