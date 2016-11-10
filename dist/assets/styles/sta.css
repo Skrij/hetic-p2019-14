@@ -5,7 +5,7 @@ body {
 /*------ COLORS ------*/
 /*------ MEDIA QUERIES ------*/
 .home {
-  background-color: #1dabac;
+  background-image: url("../images/home-mobile-bg.jpg");
   color: #fefefe;
   width: 100vw;
   height: 100vh;
@@ -20,6 +20,8 @@ body {
           justify-content: center; }
   @media (min-width: 768px) {
     .home {
+      background-color: #1dabac;
+      background-image: none;
       position: relative; }
       .home:after {
         content: '';
@@ -125,7 +127,8 @@ body {
 
 body {
   font-family: roboto;
-  margin: 0; }
+  margin: 0;
+  background-color: #e8f6f7; }
 
 .join__container {
   position: fixed;
@@ -139,3 +142,70 @@ body {
   color: #fefefe; }
   .join__container .join__content {
     padding: 15px 60px; }
+
+/*---------------------- ANIMAL LISTE */
+.animals__liste {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .animals__liste .animal__content {
+    width: 50vw;
+    text-align: center;
+    height: 120px; }
+
+/*---------------------- TITLES + TEXTES */
+.container__title {
+  color: #18979a;
+  text-align: center;
+  margin: 40px auto;
+  width: 70vw;
+  font-weight: 400; }
+
+.text-container {
+  width: 87vw;
+  margin: auto;
+  text-align: justify; }
+
+/*---------------------- JOIN US */
+.join-us__container {
+  margin-top: 40px;
+  background-color: #1dabac;
+  color: #fefefe;
+  text-align: center; }
+
+.join-us__img {
+  width: 100vw;
+  height: 150px;
+  background-image: url("../images/ours-polaire.jpg");
+  background-position: 60% 45%;
+  background-size: 220%; }
+
+.join-us__title {
+  width: 80vw;
+  margin: 35px auto;
+  font-weight: 400;
+  font-size: 1.4em; }
+
+.join-us__button {
+  background-color: #208191;
+  border: thin solid #e8f6f7;
+  color: #e8f6f7;
+  width: 90vw;
+  margin: auto;
+  padding: 15px 0; }
+
+.join-us__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 70vw;
+  margin: auto; }
+  .join-us__social .social-media {
+    margin: 30px 0;
+    width: 45px; }

@@ -1,5 +1,5 @@
 .home {
-    background-color: $bleu;
+    background-image: url('../images/home-mobile-bg.jpg');
     color: #fefefe;
     width: 100vw;
     height: 100vh;
@@ -7,6 +7,8 @@
     align-items: center;
     justify-content: center;
     @include medium { 
+        background-color: $bleu;
+        background-image: none;
         position: relative;
         &:after{
             content:'';

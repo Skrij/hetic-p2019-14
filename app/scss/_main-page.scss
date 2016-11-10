@@ -1,6 +1,8 @@
 body {
     font-family: roboto;
     margin: 0;
+    background-color: #e8f6f7;
+
 }
 
 .join__container {
@@ -12,5 +14,80 @@ body {
     color: #fefefe;
     .join__content {
         padding: 15px 60px;
+    }
+}
+
+
+/*---------------------- ANIMAL LISTE */
+
+.animals__liste {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .animal__content {
+        width: 50vw;
+        text-align: center;
+        height: 120px;
+    }
+}
+
+
+/*---------------------- TITLES + TEXTES */
+.container__title {
+    color: $bleu-text;
+    text-align: center;
+    margin: 40px auto;
+    width: 70vw;
+    font-weight: 400;
+}
+
+.text-container {
+    width: 87vw;
+    margin: auto;
+    text-align: justify;
+}
+
+
+/*---------------------- JOIN US */
+.join-us__container {
+    margin-top: 40px;
+    background-color: $bleu;
+    color: #fefefe;
+    text-align: center;
+}
+
+
+.join-us__img {
+    width: 100vw;
+    height: 150px;
+    background-image: url('../images/ours-polaire.jpg');
+    background-position: 60% 45%;
+    background-size: 220%;
+}  
+
+.join-us__title {
+    width: 80vw;
+    margin: 35px auto;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.join-us__button {
+    background-color: #208191;
+    border: thin solid #e8f6f7;
+    color: #e8f6f7;
+    width: 90vw;
+    margin: auto;
+    padding: 15px 0;
+} 
+
+.join-us__social {
+    display: flex;
+    justify-content: space-around;
+    width: 70vw;
+    margin: auto;
+    .social-media {
+        margin: 30px 0;
+        width: 45px;
     }
 }
