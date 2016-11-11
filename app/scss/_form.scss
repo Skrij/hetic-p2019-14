@@ -1,0 +1,9 @@
+.form {
+    //display none pour cacher le formulaire
+    display : none;
+    background-color: $grey-bg;
+    padding: 50px;
+    input {
+        display: block;
+    }
+}
