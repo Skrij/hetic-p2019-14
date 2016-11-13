@@ -1,0 +1,10 @@
+.threats__liste {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .threat__content {
+        width: 50vw;
+        text-align: center;
+        height: 120px;
+    }
+}

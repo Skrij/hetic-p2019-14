@@ -1,0 +1,42 @@
+.join-us {
+    margin-top: 40px;
+    background-color: $bleu;
+    color: #fefefe;
+    text-align: center;
+}
+
+
+.join-us__img {
+    width: 100vw;
+    height: 150px;
+    background-image: url('../images/ours-polaire.jpg');
+    background-position: 60% 45%;
+    background-size: 220%;
+}  
+
+.join-us__title {
+    width: 80vw;
+    margin: 35px auto;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.join-us__button {
+    background-color: #208191;
+    border: thin solid #e8f6f7;
+    color: #e8f6f7;
+    width: 90vw;
+    margin: auto;
+    padding: 15px 0;
+} 
+
+.join-us__social {
+    display: flex;
+    justify-content: space-around;
+    width: 70vw;
+    margin: auto;
+    .social-media {
+        margin: 30px 0;
+        width: 45px;
+    }
+}
