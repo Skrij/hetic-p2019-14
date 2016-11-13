@@ -126,6 +126,23 @@ body {
     .intro__more {
       margin-left: 70px; } }
 
+.form {
+  display: none;
+  background-color: #eddfc5;
+  padding: 50px; }
+  .form input {
+    display: block; }
+
+.social {
+  display: none;
+  background-color: #eddfc5;
+  padding: 50px; }
+
+body {
+  font-family: roboto;
+  margin: 0;
+  background-color: #e8f6f7; }
+
 .join__container {
   position: fixed;
   display: -webkit-box;
