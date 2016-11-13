@@ -35,9 +35,5 @@ gulp.task('images', function() {
 	.pipe(gulp.dest('dist/assets/images'))
 });
 
-gulp.task('watch-images', function(){
-	gulp.watch('app/images/**/*',['images']);
-});
-
-gulp.task('build', ['default', 'watch-php', 'watch-images']);
+gulp.task('build', ['default', 'watch-php', 'images']);
 
