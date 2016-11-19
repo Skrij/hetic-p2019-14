@@ -2,6 +2,7 @@
 body {
   font-family: roboto;
   background-color: #e8f6f7;
+  color: #323232;
   margin: 0; }
 
 /*------ COLORS ------*/
@@ -19,7 +20,9 @@ body {
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100%; }
   @media (min-width: 768px) {
     .home {
       background-color: #1dabac;
@@ -282,8 +285,11 @@ input {
 
 .text-container {
   width: 87vw;
+  font-size: 14px;
   margin: auto;
   text-align: justify; }
+  .text-container span {
+    color: #1dabac; }
 
 .join-us {
   margin-top: 40px;
@@ -346,10 +352,13 @@ input {
   list-style: none;
   position: relative;
   padding: 0 10px 20px 10px; }
+  .timeline-liste__container .timeline-liste__date {
+    font-weight: 500; }
   .timeline-liste__container .timeline-liste__content {
-    text-align: justify;
     font-size: 14px;
     padding: 5px; }
+    .timeline-liste__container .timeline-liste__content span {
+      color: #1dabac; }
   .timeline-liste__container:after {
     content: '';
     position: absolute;
@@ -362,14 +371,33 @@ input {
 
 .evolution__svg-container {
   width: 100vw;
-  height: 500px; }
+  height: 550px; }
   .evolution__svg-container .svg__content--1 {
-    background-image: url("../images/banquise_été_1.png");
+    background-image: url("../images/banquise_été.png");
     background-repeat: no-repeat;
     background-position: 50% 0%;
-    background-size: 175%;
     width: 100vw;
-    height: 470px; }
+    height: 575px; }
+
+.evolution__caption {
+  margin-top: -75px; }
+  .evolution__caption .caption__content {
+    font-size: 14px;
+    padding: 5px 35px;
+    position: relative; }
+    .evolution__caption .caption__content:after {
+      content: '';
+      position: absolute;
+      background-color: #fefefe;
+      width: 15px;
+      height: 10px;
+      border-radius: 3px;
+      left: 11px;
+      top: 8px; }
+    .evolution__caption .caption__content.caption__content--2::after {
+      background-color: rgba(29, 171, 172, 0.5); }
+    .evolution__caption .caption__content.caption__content--3::after {
+      background-color: rgba(154, 44, 57, 0.5); }
 
 .animals__liste {
   display: -webkit-box;
@@ -383,6 +411,10 @@ input {
     width: 50vw;
     text-align: center;
     height: 120px; }
+
+.animal__img img {
+  border: 10px solid #1dabac;
+  border-radius: 55px; }
 
 .threats__liste {
   display: -webkit-box;

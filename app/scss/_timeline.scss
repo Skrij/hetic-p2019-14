@@ -19,27 +19,26 @@
     color: $bleu;
 }
 
-.timeline__liste {
-
-}
-
 .timeline-liste__container {
-        list-style: none;
-        position: relative;
-        padding: 0 10px 20px 10px;
-        .timeline-liste__content {
-            text-align: justify;
-            font-size: 14px;
-            padding: 5px; 
-        }
-        &:after {
-            content: '';
-            position: absolute;
-            width: 17px;
-            height: 17px;
-            border-radius: 10px;
-            background-color: $bleu;
-            left: -27px;
-            top: 0;
-        }
+    list-style: none;
+    position: relative;
+    padding: 0 10px 20px 10px;
+    .timeline-liste__date {
+    	font-weight: 500;
     }
+    .timeline-liste__content {
+        font-size: 14px;
+        padding: 5px; 
+        span {color: $bleu}
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        border-radius: 10px;
+        background-color: $bleu;
+        left: -27px;
+        top: 0;
+    }
+}

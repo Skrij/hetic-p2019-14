@@ -1,12 +1,36 @@
 .evolution__svg-container {
     width: 100vw;
-    height: 500px;
+    height: 550px;
     .svg__content--1 {
-        background-image: url('../images/banquise_été_1.png');
+        background-image: url('../images/banquise_été.png');
         background-repeat: no-repeat;
         background-position: 50% 0%;
-        background-size: 175%;
         width: 100vw;
-        height: 470px;
+        height: 575px;
     }
+}
+
+.evolution__caption {
+    margin-top: -75px;
+   .caption__content {
+      font-size: 14px;
+      padding: 5px 35px;
+      position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        background-color: #fefefe;
+        width: 15px;
+        height: 10px;
+        border-radius: 3px;
+        left: 11px;
+        top: 8px;
+      }
+      &.caption__content--2::after {
+      	background-color: rgba(29,171,172,0.5)
+      }
+      &.caption__content--3::after {
+      	background-color: rgba(154,44,57,0.5)
+      }
+   }
 }

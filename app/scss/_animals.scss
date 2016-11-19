@@ -8,3 +8,10 @@
         height: 120px;
     }
 }
+
+.animal__img {
+	img {
+	    border: 10px solid $bleu;
+	    border-radius: 55px;
+	}
+}

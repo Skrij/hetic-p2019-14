@@ -14,25 +14,25 @@
                 <li class="timeline-liste__container">
                     <div class="timeline-liste__date"> Mai 2016 </div>
                     <div class="timeline-liste__content">
-                        La compagnie pétrolière Shell se retire de l’Arctique sous la pression de millions de citoyens et de citoyennes
+                        La compagnie pétrolière <span>Shell se retire de l’Arctique</span> sous la pression de millions de citoyens et de citoyennes
                     </div>
                 </li>
                 <li class="timeline-liste__container">
                     <div class="timeline-liste__date"> 20 - 24 juin 2016 </div>
                     <div class="timeline-liste__content">
-                        Commission de l’OSPAR (Oslo/Paris convention (for the Protection of the Marine Environment of the North-East Atlantic) en Espagne. La Norvège, l’Islande et le Danemark empêchent la création d’un sanctuaire dans les eaux internationales autour du pôle Nord.
+                        Commission de l’<span>OSPAR</span> (Convention Oslo/Paris pour la Protection de l'Environment Marin Nord-Est Atlantic) en Espagne. La Norvège, l’Islande et le Danemark <span>empêchent la création d’un sanctuaire</span> dans les eaux internationales autour du pôle Nord.
                     </div>
                 </li>
                 <li class="timeline-liste__container">
                     <div class="timeline-liste__date"> 28 octobre 2016 </div>
                     <div class="timeline-liste__content">
-                        Accord historique de la Commission pour la conservation de la faune et de la flore marines de l'Antarctique (CCAMLR) assurant la création d'une zone protégée en mer de Ross (Antarctique) de 1,55 millions de kilomètres carrés.
+                        Accord historique de la Commission pour la conservation de la faune et de la flore marines de l'Antarctique (<span>CCAMLR</span>) assurant la <span>création d'une zone protégée</span> en mer de Ross (Antarctique) de 1,55 millions de kilomètres carrés.
                     </div>
                 </li>
                 <li class="timeline-liste__container">
                     <div class="timeline-liste__date"> 26 - 30 juin 2017 </div>
                     <div class="timeline-liste__content">
-                        Prochaine commission de l’OSPAR. Agissons pour créer un sanctuaire dans les eaux du pôle Nord ! Les forages en mer et la pêche industrielle y seraient interdits et le transport maritime serait contrôlé. Aidez-nous à protéger l’Arctique ! 
+                        Prochaine commission de l’<span>OSPAR</span>. <span>Agissons</span> pour créer un sanctuaire dans les eaux du pôle Nord ! Les forages en mer et la pêche industrielle y seraient interdits et le transport maritime serait contrôlé. <span>Aidez-nous à protéger l’Arctique !</span> 
                     </div>
                 </li>
             </ul>
@@ -43,6 +43,12 @@
                 <svg class="svg__content svg__content--1"> <!-- artique --> </svg>
                 <svg class="svg__content svg__content--2"> <!-- revendication de la russie --> </svg>
                 <svg class="svg__content svg__content--3"> <!-- zone protégé par greenpeace --> </svg>
+            </div>
+
+            <div class="evolution__caption">
+                <div class="caption__content caption__content--1"> Banquise en été </div>
+                <div class="caption__content caption__content--2"> Zone à protéger </div>
+                <div class="caption__content caption__content--3"> Revendication russe </div>
             </div>
 
             <div class="animals">
@@ -93,7 +99,7 @@
         <div class="graph">
             <h2 class="container__title"> Une banquise à protéger </h2>    
             <img src="#" alt="graph-perte-75%">
-            <p class="graph__text-container text-container"> La banquise joue un rôle critique dans la régulation du climat. Mais en raison d changements climatiques, 75% de la surface de la banquise à disparu en 30 ans. </p>
+            <p class="graph__text-container text-container"> La banquise joue un rôle critique dans la <span>régulation du climat</span>. Mais en raison des changements climatiques, <span>75% de la surface</span> de la banquise <span>à disparu en 30 ans</span>. </p>
         </div> <!-- .graph -->
 
         <div class="threats">
@@ -101,30 +107,30 @@
             <div class="threats__liste">
                 <div class="threat__content">
                     <div class="threat__img threat__img--1">
-                        <img src="" alt="Shell">
+                        <img src="assets/images/shell.png" alt="Shell">
                     </div>
                     <div class="threat__title"> Shell </div>
                 </div>
                 <div class="threat__content">
                     <div class="threat__img threat__img--2">
-                        <img src="" alt="Shell">
+                        <img src="assets/images/statoil.png" alt="Statoil">
                     </div>
                     <div class="threat__title"> Statoil </div>
                 </div>
                 <div class="threat__content">
                     <div class="threat__img threat__img--3">
-                        <img src="" alt="Shell">
+                        <img src="assets/images/rosneft.png" alt="Rosneft">
                     </div>
                     <div class="threat__title"> Rosneft </div>
                 </div>
                 <div class="threat__content">
                     <div class="threat__img threat__img--4">
-                        <img src="" alt="Shell">
+                        <img src="assets/images/gazprom.png" alt="Gazprom">
                     </div>
                     <div class="threat__title"> Gazprom </div>
                 </div>
             </div>    
-            <p class="threats__text-container text-container"> Avec la fonte des glaces, les industriels envisagent d'exploiter le pétrole, les métaux précieux ou les ressources halieutique; et d'emprunter les voies de navigation plus rapide au nord. Les risques sont multiples : <br> - marées noires <br>- contamination <br>- polution acoustisque sous-marine <br>- arrivée d'espaces invasive <br>- surpêche <br>- destruction environnementale <br>- ... </p>
+            <p class="threats__text-container text-container"> <span>L'exploitation du pétrole</span>, des métaux précieux ou des ressources halieutiques est une menace importante pour l’Arctique et pour le monde. En effet, <span>les risques</span> de ces exploitations sont grands et <span>certaines espèces n’y survivront pas</span>. Mais ce n’est pas tout, cela pourrait provoquer des marées noires, de la pollution sous-marine et l’arrivée d’espèces invasives qui amèneraient à une importante <span>destruction environnementale</span>.</p>
         </div>
 
         <div class="join-us">
