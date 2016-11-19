@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: roboto;
   background-color: #e8f6f7;
@@ -266,7 +267,8 @@ input {
       justify-content: space-around;
   width: 100vw;
   background-color: #1dabac;
-  color: #fefefe; }
+  color: #fefefe;
+  z-index: 1; }
   .join__container .join__content {
     padding: 15px 60px; }
 
@@ -321,6 +323,53 @@ input {
   .join-us__social .social-media {
     margin: 30px 0;
     width: 45px; }
+
+.timeline {
+  padding-top: 45px;
+  position: relative; }
+  .timeline:after {
+    content: '';
+    position: absolute;
+    background-color: #1dabac;
+    width: 3px;
+    height: 97%;
+    left: 20px;
+    top: 0; }
+
+.timeline__title {
+  padding: 35px 0 20px 35px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #1dabac; }
+
+.timeline-liste__container {
+  list-style: none;
+  position: relative;
+  padding: 0 10px 20px 10px; }
+  .timeline-liste__container .timeline-liste__content {
+    text-align: justify;
+    font-size: 14px;
+    padding: 5px; }
+  .timeline-liste__container:after {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 10px;
+    background-color: #1dabac;
+    left: -27px;
+    top: 0; }
+
+.evolution__svg-container {
+  width: 100vw;
+  height: 500px; }
+  .evolution__svg-container .svg__content--1 {
+    background-image: url("../images/banquise_été_1.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 175%;
+    width: 100vw;
+    height: 470px; }
 
 .animals__liste {
   display: -webkit-box;

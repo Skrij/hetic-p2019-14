@@ -8,7 +8,34 @@
         </div> <!-- .join__container -->
 
         <div class="timeline">
-            
+            <div class="timeline__title"> Contexte <span class="hide-xs"> de la pétition </span></div>
+
+            <ul class="timeline__liste">
+                <li class="timeline-liste__container">
+                    <div class="timeline-liste__date"> Mai 2016 </div>
+                    <div class="timeline-liste__content">
+                        La compagnie pétrolière Shell se retire de l’Arctique sous la pression de millions de citoyens et de citoyennes
+                    </div>
+                </li>
+                <li class="timeline-liste__container">
+                    <div class="timeline-liste__date"> 20 - 24 juin 2016 </div>
+                    <div class="timeline-liste__content">
+                        Commission de l’OSPAR (Oslo/Paris convention (for the Protection of the Marine Environment of the North-East Atlantic) en Espagne. La Norvège, l’Islande et le Danemark empêchent la création d’un sanctuaire dans les eaux internationales autour du pôle Nord.
+                    </div>
+                </li>
+                <li class="timeline-liste__container">
+                    <div class="timeline-liste__date"> 28 octobre 2016 </div>
+                    <div class="timeline-liste__content">
+                        Accord historique de la Commission pour la conservation de la faune et de la flore marines de l'Antarctique (CCAMLR) assurant la création d'une zone protégée en mer de Ross (Antarctique) de 1,55 millions de kilomètres carrés.
+                    </div>
+                </li>
+                <li class="timeline-liste__container">
+                    <div class="timeline-liste__date"> 26 - 30 juin 2017 </div>
+                    <div class="timeline-liste__content">
+                        Prochaine commission de l’OSPAR. Agissons pour créer un sanctuaire dans les eaux du pôle Nord ! Les forages en mer et la pêche industrielle y seraient interdits et le transport maritime serait contrôlé. Aidez-nous à protéger l’Arctique ! 
+                    </div>
+                </li>
+            </ul>
         </div> <!-- .timeline -->
 
         <div class="evolution">
