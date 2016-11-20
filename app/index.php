@@ -20,8 +20,8 @@
         </div> <!-- .intro__action -->
 
         <div class="intro__more">
-        	<a href="main-page.php"> En savoir plus 
-        	   <img src="assets/images/icon-more.svg" >
+            <a href="main-page.php"> En savoir plus 
+               <img src="assets/images/icon-more.svg" >
             </a>
         </div>
 
@@ -35,10 +35,10 @@
             personnes ont déjà agi
         </div>
 
-        <form class="form__content" action="action.php" method="post">
-            <input type="text" name="lastname" placeholder="Nom"/>
-            <input type="text" name="firstname" placeholder="Prénom"/>
-            <input type="email" name="email" placeholder="E-mail"/>
+        <form class="form__content" action="#" method="post">
+            <input type="text" name="lastname" placeholder="Nom" required/>
+            <input type="text" name="firstname" placeholder="Prénom" required/>
+            <input type="email" name="email" placeholder="E-mail" required/>
             <input class="form__submit" type="submit" value="Rejoignez le mouvement">
         </form>
 
@@ -47,11 +47,11 @@
 
     <div class="social">
         <div class="social__liste">
-            <a class="social__link twitter" href="https://twitter.com/share?url=petitionarctique.com&amp;text=J'ai%20sauvé%20l'Arctique.%20Faites%20comme%20moi,%20signez.&amp;hashtags=SaveTheArctic" ></a>
+            <a class="social__link twitter" href="https://twitter.com/share?url=petitionarctique.com&amp;text=J'ai%20sauvé%20l'Arctique.%20Faites%20comme%20moi,%20signez.&amp;hashtags=SaveTheArctic" target="_blank"></a>
             
-            <a class="social__link facebook" href="http://www.facebook.com/sharer.php?u=petitionarctique.com"></a>
+            <a class="social__link facebook" href="http://www.facebook.com/sharer.php?u=petitionarctique.com" target="_blank"></a>
 
-            <a class="social__link googleplus" href="https://plus.google.com/share?url=petitionarctique.com"></a>
+            <a class="social__link googleplus" href="https://plus.google.com/share?url=petitionarctique.com" target="_blank"></a>
         </div>
 
         <div class="social__text">

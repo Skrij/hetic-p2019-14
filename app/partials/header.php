@@ -12,5 +12,8 @@
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="./assets/styles/sta.css">
     <script async src="./assets/scripts/main.js"></script>
+    <script async src="./assets/scripts/date.js"></script>
+    <script async src="./assets/scripts/utils.js"></script>
+    <script async src="./assets/scripts/flip-card.js"></script>
   </head>
   <body>
