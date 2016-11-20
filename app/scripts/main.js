@@ -19,8 +19,4 @@ document.querySelector('.social__text').addEventListener("click", function(){
 	document.querySelector('.social').style.zIndex =  '0';
 	document.querySelector('.intro').style.opacity =  '1';
 });
-/*
-var date = new Date();
-var current_month = date.getMonth() + 1;
-console.log(current_month);*/
 
