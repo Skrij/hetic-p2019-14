@@ -15,11 +15,8 @@
     <script async src="./assets/scripts/modernizr.custom.js"></script>
     <script async src="./assets/scripts/main.js"></script>
     <script async src="./assets/scripts/date.js"></script>
-<<<<<<< HEAD
     <script src="./assets/scripts/classie.js"></script>
     <script src="./assets/scripts/uiMorphingButton_fixed.js"></script>
-=======
     <script async src="./assets/scripts/video.js"></script>
->>>>>>> origin/develop
   </head>
   <body>
