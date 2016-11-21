@@ -8,7 +8,7 @@
         </div> <!-- .join__container -->
 
         <div class="timeline">
-            <div class="timeline__title"> Contexte <span class="hide-xs"> de la pétition </span></div>
+            <div class="timeline__title"> Contexte de la pétition </div>
 
             <ul class="timeline__liste">
                 <li class="timeline-liste__container">

@@ -1452,6 +1452,9 @@ input {
   font-size: 14px;
   margin: auto;
   text-align: justify; }
+  @media (min-width: 768px) {
+    .text-container {
+      font-size: 16px; } }
   .text-container span {
     color: #1dabac;
     font-weight: 400; }
@@ -1512,6 +1515,9 @@ input {
   font-weight: 500;
   font-size: 20px;
   color: #1dabac; }
+  @media (min-width: 768px) {
+    .timeline__title {
+      font-size: 24px; } }
 
 .timeline-liste__container {
   list-style: none;
@@ -1525,6 +1531,9 @@ input {
     .timeline-liste__container .timeline-liste__content span {
       color: #1dabac;
       font-weight: 400; }
+    @media (min-width: 768px) {
+      .timeline-liste__container .timeline-liste__content {
+        font-size: 16px; } }
   .timeline-liste__container:after {
     content: '';
     position: absolute;
