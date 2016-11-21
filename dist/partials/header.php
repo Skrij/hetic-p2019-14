@@ -20,8 +20,8 @@
     <script async src="./assets/scripts/flip-card.js"></script>
 =======
 >>>>>>> origin/develop
-    <script src="./assets/scripts/classie.js"></script>
-    <script src="./assets/scripts/uiMorphingButton_fixed.js"></script>
+    <script async src="./assets/scripts/classie.js"></script>
+    <script async src="./assets/scripts/uiMorphingButton_fixed.js"></script>
     <script async src="./assets/scripts/video.js"></script>
   </head>
   <body>
