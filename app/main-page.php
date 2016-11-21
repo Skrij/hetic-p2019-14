@@ -69,7 +69,7 @@
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
 
-                                <div class="animal-pop-up__desk">L'animal emblématique est répertorié comme étant presque menacé. 80 000 individus vivent dans la baie de Baffin mais seulement 7 000 narvals habitent encore la mer du Groenland. <br>
+                                <div class="animal-pop-up__desk">L'animal emblématique est répertorié comme étant presque menacé. 80 000 individus vivent dans la baie de Baffin mais <span>seulement 7 000 narvals</span> habitent encore la mer du Groenland. <br>
                                 Les narvals sont des nageurs lents. Leur capacité à plonger dans les profondeurs pour trouver leur proie en fait un habitant naturel des eaux profondes. Ils sont très adaptés à la banquise dense et peuvent survivre dans cet environnement pendant de longues périodes. <br>L'hiver est synonyme d’une alimentation intensive pour les narvals, le flétan du Groenland est leur proie principale. En été les baleines plongent à des profondeurs moins profondes, où ils mangent moins.</div>
 
                                 <div class="animal-pop-up__mob">
@@ -87,7 +87,7 @@
                                     
                                 </div>
 
-                                <div class="animal-pop-up__desk">Ces animaux sont classés parmi les plus sensibles au changement climatique en raison de leur étroite répartition géographique, de leur taille relativement faible, de leur reproduction lente et de leur dépendance vis-à-vis de la banquise notamment en terme d’alimentation. Avec le réchauffement, les espèces devraient s'étendre vers le nord et leurs possibilités d'alimentation devraient être endommagées. Au fur et à mesure que la banquise se contracte, ils seront exposés à leurs prédateurs.</div>
+                                <div class="animal-pop-up__desk">Ces animaux sont <span>classés parmi les plus sensibles au changement climatique</span> en raison de leur étroite répartition géographique, de leur taille relativement faible, de leur reproduction lente et de leur dépendance vis-à-vis de la banquise notamment en terme d’alimentation. Avec le réchauffement, les espèces devraient s'étendre vers le nord et <span>leurs possibilités d'alimentation devraient être endommagées</span>. Au fur et à mesure que la banquise se contracte, ils seront exposés à leurs prédateurs.</div>
                             </div>
                         </div>
                     </div><!-- morph-button animal__content-1 -->
@@ -100,7 +100,7 @@
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
 
-                                <div class="animal-pop-up__desk">Les renards arctiques vivant dans les zones intérieures de la toundra se nourrissent principalement de lemmings et de campagnols. Ils ne se reproduisent habituellement pas les années où les populations de lemmings sont faibles. <br>Les renards arctiques vivant dans les régions côtières comptent davantage sur les oiseaux marins, leurs œufs et leurs poussins.</div>
+                                <div class="animal-pop-up__desk">Les renards arctiques vivant dans <span>les zones intérieures de la toundra</span> se nourrissent principalement de lemmings et de campagnols. Ils ne se reproduisent habituellement pas les années où les populations de lemmings sont faibles. <br>Les renards arctiques vivant dans les régions côtières comptent davantage sur les oiseaux marins, leurs œufs et leurs poussins.</div>
                                 
                                 <div class="animal-pop-up__mob">
                                     <div class="animal__img">
@@ -116,8 +116,8 @@
                                     </ul>
                                 </div>
 
-                                <div class="animal-pop-up__desk">Les scientifiques pensent qu'il existe deux grandes menaces auxquelles : <br>
-                                - Les renards habitant les régions de la toundra inférieure pourraient perdre leur habitat en raison d'un déplacement prévu de la forêt boréale vers le nord. Les populations de lemmings diminueront également probablement et cela aura un impact plus profond sur la survie des renards. De plus, un déplacement des renards roux vers le nord menacera directement les renards arctiques. <br>
+                                <div class="animal-pop-up__desk">Les scientifiques pensent qu'il existe deux grandes menaces pour les renards arctiques en raison de <span>la diminution de leur habitat dû au changement climatique</span> : <br>
+                                - Les renards habitant les régions de la toundra inférieure pourraient perdre leur habitat en raison d'un déplacement prévu de la forêt boréale vers le nord. Les renards arctiques <span>ne survivent pas si bien dans un environnement forestier</span>. De plus, un déplacement des renards roux vers le nord menacera directement les renards arctiques, les renards roux <span>pouvant tuer les renards arctiques</span>. <br>
                                 - Les renards habitant des régions plus septentrionales ne pourront plus parcourir de longues distances pour se nourrir et se reproduire.</div>
                                 
                             </div>
@@ -132,7 +132,7 @@
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
 
-                                <div class="animal-pop-up__desk">Les populations de baleines boréales ont été durement touchées par la chasse commerciale. Lorsque la chasse a cessé, peu de baleines boréales étaient encore en vie. Leur population a néanmoins augmenté ces dernières années. Aujourd'hui, la principale menace est la fonte des glaces due au changement climatique. Depuis les années 1970, la perturbation des activités d'exploration et d'extraction de pétrole et de gaz dans la région arctique inquiète et pourrait affecter les baleines boréales.</div>
+                                <div class="animal-pop-up__desk">Les populations de baleines boréales ont été durement touchées par la <span>chasse commerciale</span>. Lorsque la chasse a cessé, peu de baleines boréales étaient encore en vie. Leur population a néanmoins augmenté ces dernières années. Aujourd'hui, la principale menace est la fonte des glaces due au changement climatique. Depuis les années 1970, la perturbation des <span>activités d'exploration et d'extraction de pétrole et de gaz</span> dans la région arctique inquiète et pourrait affecter les baleines boréales.</div>
 
                                 <div class="animal-pop-up__mob">
                                     <div class="animal__img">
@@ -149,7 +149,7 @@
                                     
                                 </div>
 
-                                <div class="animal-pop-up__desk">Les baleines boréales sont bien adaptées aux eaux couvertes par la glace même si elles utilisent également des habitats en eau libre. En hiver, les eaux couvertes par la glace fournissent un habitat sûr pour le vêlage et l'élevage des jeunes, la glace les protégeant des orques. Par conséquent, la fonte des glaces peut accroître la menace de prédation par les orques.</div>
+                                <div class="animal-pop-up__desk">Les baleines boréales sont bien adaptées aux eaux couvertes par la glace même si elles utilisent également des habitats en eau libre. En hiver, les eaux couvertes par la glace fournissent un habitat sûr pour le vêlage et l'élevage des jeunes, la glace les protégeant des orques. Par conséquent, la fonte des glaces peut accroître la <span>menace de prédation</span> par les orques.</div>
                             </div>
                         </div>
                     </div><!-- morph-button animal__content-3 -->
@@ -162,7 +162,7 @@
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
 
-                                <div class="animal-pop-up__desk">Les ours polaires ne sont pas rassemblés au sein d’un unique groupe dans l'Arctique. Ils sont répartis en 19 groupes plus ou moins isolés, appelés stocks ou populations. <br>
+                                <div class="animal-pop-up__desk">Les ours polaires ne sont pas rassemblés au sein d’un unique groupe dans l'Arctique. Ils sont répartis en <span>19 groupes</span> plus ou moins isolés, appelés stocks ou populations. <br>
                                 Ils vivent principalement dans les régions arctiques du Canada, du Groenland, de la Norvège continentale, de la Fédération de Russie, de l'Alaska, de Svalbard et de Jan-Mayen et sur la glace entourant le Nord.</div>
 
                                 <div class="animal-pop-up__mob">
@@ -179,7 +179,7 @@
                                     </ul>
                                 </div>
 
-                                <div class="animal-pop-up__desk">En 2007, une équipe de recherche géologique des États-Unis a conclu que les deux tiers des ours polaires pourraient disparaître d'ici 2050 à cause des gaz à effet de serre. Un espoir subsiste si l’émission des gaz à effet de serre diminue au cours des prochaines années. Les résultats des modèles mathématiques de climat indiquent que si les gaz à effet de serre sont atténués, plus de banquise serait préservée et les ours polaires pourraient vivre tout au long de ce siècle.</div>
+                                <div class="animal-pop-up__desk">Toutefois, en raison de la fonte des glaces imputée au réchauffement climatique, la banquise, habitat essentiel des ours polaires est menacée et avec elle <span>leurs survie</span>. Les ours peinent à trouver des proies dans certaines régions ce qui a un impact important sur leur nombre. Les ours polaires <span>ont besoin de la glace</span> aussi bien <span>pour leur survie</span> que <span>pour leur reproduction</span>.</div>
                                 
                             </div>
                         </div>
@@ -193,8 +193,7 @@
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
 
-                                <div class="animal-pop-up__desk">Les phoques des glaces utilisent la glace pour élever leurs jeunes, muer et se reposer. La banquise doit être suffisamment stable pour élever les jeunes. <br>
-                                Pour les phoques barbus, la fonte de la banquise menace leur capacité à se reproduire. Ils l'utilisent pour donner naissance et élever leurs progénitures. De plus, ils auront plus de mal pour se nourrir.</div>
+                                <div class="animal-pop-up__desk">Les phoques des glaces utilisent la glace pour élever leurs jeunes, muer et se reposer. <span>La banquise doit être suffisamment stable</span> pour élever les jeunes. <br>Pour les phoques barbus, la fonte de la banquise menace leurs capacité <span>à se reproduire</span>. Ils l'utilisent pour donner naissance et élever leurs progénitures. De plus, ils auront <span>plus de mal pour se nourrir</span>.</div>
 
                                 <div class="animal-pop-up__mob">
                                     <div class="animal__img">
@@ -210,7 +209,7 @@
                                     </ul>
                                 </div>
 
-                                <div class="animal-pop-up__desk">Les phoques annelés vivent principalement dans l'Extrême-Arctique et dépendent de la banquise pour se reproduire, élever leurs des petits et se reposer. Les phoques annelés construisent des tanières sur la glace pour se mettre à l’abri. Une fonte des glaces plus rapide pourrait séparer prématurément les petits de leur mère, réduisant considérablement leurs chances de survie. De plus, un printemps plus chaud entraîne l’effondrement des toits des tanières, laissant les phoques annelés sans abri à la merci des prédateurs.</div>
+                                <div class="animal-pop-up__desk">Les phoques annelés vivent principalement dans l'Extrême-Arctique et dépendent de la banquise pour <span>se reproduire, élever leurs des petits et se reposer</span>. Les phoques annelés construisent des tanières sur la glace pour se mettre à l’abri. Une fonte des glaces plus rapide pourrait <span>séparer prématurément les petits de leur mère</span>, réduisant considérablement leurs chances de survie. De plus, un printemps plus chaud entraîne l’effondrement des toits des tanières, laissant les phoques annelés sans abri à la merci des prédateurs.</div>
                                 
                             </div>
                         </div>
@@ -224,7 +223,7 @@
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
 
-                                <div class="animal-pop-up__desk">Les morses passent la plupart de leur vie sur la banquise. Ils migrent avec lorsqu’elle s’étend et se déplace vers le sud en hiver. Elle leur fournit alors une plate-forme pour se reposer, s’alimenter et se reproduire. Pendant le printemps et l'été, les morses mâles restent principalement sur terre alors qu'un grand nombre de femelles restent sur la glace pour se reposer et s’occuper de leurs petits.</div>
+                                <div class="animal-pop-up__desk">Les morses passent la plupart de leur vie <span>sur la banquise</span>. Ils migrent avec lorsqu’elle s’étend et se déplace vers le sud en hiver. Elle leur fournit alors une plate-forme pour se reposer, s’alimenter et se reproduire. Pendant le printemps et l'été, les morses mâles restent principalement sur terre alors qu'un grand nombre de femelles restent sur la glace pour se reposer et s’occuper de leurs petits.</div>
 
                                 <div class="animal-pop-up__mob">
                                     <div class="animal__img">
@@ -240,7 +239,7 @@
                                     </ul>
                                 </div>
 
-                                <div class="animal-pop-up__desk">Au cours des dernières décennies, 75% de la banquise en été a disparu. Cette retraite a causé des problèmes aux morses. Ils doivent soit utiliser la glace dans des eaux plus profondes où il y a peu d'accès à la nourriture, soit s’installer sur la terre. Si la banquise continue de diminuer ou si la banquise estivale se retire trop rapidement, les femelles risquent d’avoir des difficultés pour nourrir et s’occuper de leurs petits.</div>
+                                <div class="animal-pop-up__desk">Au cours des dernières décennies, <span>75% de la banquise en été a disparu</span>. Cette retraite a causé des problèmes aux morses. Ils doivent soit utiliser la glace dans des eaux plus profondes où il y a peu d'accès à la nourriture, soit s’installer sur la terre. Si la banquise continue de diminuer ou si la banquise estivale se retire trop rapidement, les femelles risquent d’avoir des <span>difficultés pour nourrir et s’occuper de leurs petits</span>.</div>
                                 
                             </div>
                         </div>

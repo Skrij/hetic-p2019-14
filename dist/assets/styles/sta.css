@@ -1782,7 +1782,10 @@ h1.title__desktop {
   @media (min-width: 770px) {
     .animal-pop-up__desk {
       display: block;
-      width: 30%; } }
+      width: 30%; }
+      .animal-pop-up__desk span {
+        color: #1dabac;
+        font-weight: 400; } }
 
 @media (min-width: 770px) {
   .graph {

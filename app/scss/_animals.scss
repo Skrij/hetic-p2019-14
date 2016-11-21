@@ -10,12 +10,12 @@
     flex-wrap: wrap;
     justify-content: space-around;
     .morph-button-modal-2.open .morph-content {
-    @include medium {
-        margin: -250px 0 0 -570px;
-        height: 550px;
-        width: 70vw !important;
-    }   
-}
+        @include medium {
+            margin: -250px 0 0 -570px;
+            height: 550px;
+            width: 70vw !important;
+        }   
+    }
 }
 
 .animal__content {
@@ -133,6 +133,9 @@
     @include medium {
         display: block;
         width: 30%;
+        span {
+            color: $bleu;
+            font-weight: 400;
+        }
     }
 }
-
