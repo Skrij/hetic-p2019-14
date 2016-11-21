@@ -65,7 +65,7 @@
                         <button class="animal__img" type="button">
                             <img src="assets/images/narvals.png" alt="animal-narvals">
                         </button>
-                        <div class="morph-content">
+                        <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
                                 <div class="animal__img">
@@ -88,7 +88,7 @@
                         <button class="animal__img" type="button">
                             <img src="assets/images/loup.png" alt="animal-loup">
                         </button>
-                        <div class="morph-content">
+                        <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
                                 <div class="animal__img">
@@ -111,7 +111,7 @@
                         <button class="animal__img" type="button">
                             <img src="assets/images/balaine.png" alt="animal-balaine">
                         </button>
-                        <div class="morph-content">
+                        <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
                                 <div class="animal__img">
@@ -134,7 +134,7 @@
                         <button class="animal__img" type="button">
                             <img src="assets/images/ours.png" alt="animal-ours">
                         </button>
-                        <div class="morph-content">
+                        <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
                                 <div class="animal__img">
@@ -157,7 +157,7 @@
                         <button class="animal__img" type="button">
                             <img src="assets/images/seal.png" alt="animal-seal">
                         </button>
-                        <div class="morph-content">
+                        <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
                                 <div class="animal__img">
@@ -180,7 +180,7 @@
                         <button class="animal__img" type="button">
                             <img src="assets/images/morse.png" alt="animal-morse">
                         </button>
-                        <div class="morph-content">
+                        <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
                                 <div class="animal__img">
@@ -220,7 +220,7 @@
                     </button>
                     <div class="threat__title"> Shell </div>
 
-                    <div class="morph-content">
+                    <div class="morph-content" style="overflow: scroll">
                         <div class="animal__pop-up">
                             <span class="icon icon-close">Close the dialog</span>
                             <div class="animal__info"> <span>Shell</span> est l’une des plus grandes sociétés énergétiques de la planète. <br><br>
@@ -240,7 +240,7 @@
                     </button>
                     <div class="threat__title"> Statoil </div>
 
-                    <div class="morph-content">
+                    <div class="morph-content" style="overflow: scroll">
                         <div class="animal__pop-up">
                             <span class="icon icon-close">Close the dialog</span>
                             <div class="animal__info"> <span>Statoil</span> est une société pétrolières norvégienne qui est connue pour ses normes sur le forage offshore. <br><br>
@@ -264,7 +264,7 @@
                     </button>
                     <div class="threat__title"> Rosneft </div>
 
-                    <div class="morph-content">
+                    <div class="morph-content" style="overflow: scroll">
                         <div class="animal__pop-up">
                             <span class="icon icon-close">Close the dialog</span>
                             <div class="animal__info"> <span>Rosnet</span> se démarque par les marées noires terrestres dont elle est la source en Arctique. Elle détruit la vie de milliers de personnes et anéantit une région entière. <br><br>
@@ -286,7 +286,7 @@
                     </button>
                     <div class="threat__title"> Gazprom </div>
 
-                    <div class="morph-content">
+                    <div class="morph-content" style="overflow: scroll">
                         <div class="animal__pop-up">
                             <span class="icon icon-close">Close the dialog</span>
                             <div class="animal__info"> <span>Gazprom</span> est la plus grande menace pour l’Arctique. Ils ont lancé des forages industriels au second trimestre 2013 à Prirazlomonoe. <br><br>

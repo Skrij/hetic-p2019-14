@@ -25,7 +25,6 @@ body {
 
 /*------ COLORS ------*/
 /*------ MEDIA QUERIES ------*/
-<<<<<<< HEAD
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
@@ -1037,14 +1036,13 @@ table {
     left: 0px; }
   .morph-button-sidebar.open .morph-content {
     height: 100% !important; } }
-=======
+
 #mq-medium {
   display: none;
   width: 100vw; }
   @media (min-width: 768px) {
     #mq-medium {
       display: block; } }
->>>>>>> origin/develop
 
 video {
   position: fixed;
@@ -1625,7 +1623,7 @@ input {
   list-style: none;
   padding: 0;
   text-align: left;
-  width: 80vw; }
+  width: 300px; }
   .animal__stats .stats__num {
     color: #1dabac;
     font-weight: 400;
