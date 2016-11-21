@@ -36,7 +36,7 @@
     <div class="form">
 
         <div class="form__text">
-            <div class="form__count">8,192,413</div>
+            <div class="form__count">8192413</div>
             personnes ont déjà agi
         </div>
 
