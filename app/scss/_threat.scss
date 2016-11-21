@@ -1,8 +1,26 @@
+.threats {
+    @include medium {
+        display: flex;
+        .text-container {
+            padding-right: 130px;
+        }
+    }
+}
+
 .threats__liste {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 30px;   
+    margin-bottom: 30px; 
+    @include medium {
+        width: 60vw;
+        padding: 120px 0 0 ;
+        justify-content: center;
+        .morph-button-modal-2.open .morph-content {
+            margin: -250px 0 0 -170px;
+            height: 600px;
+        }   
+    }  
 }
 
 .threat__content {
@@ -10,6 +28,9 @@
     text-align: center;
     height: 120px;
     .animal__info {padding-top: 60px}
+    @include medium {
+        width: 14vw;
+    }
 }
 
 .threat__title {
@@ -18,4 +39,33 @@
     z-index: 1000;
     left: 0;
     right: 0;
+}
+
+.threat__pop-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.threat__info {
+    padding: 70px 0 10px;
+    span {
+        color: $bleu;
+        font-weight: 400;
+    }
+}
+
+.threat__stats {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    width: 300px;
+    .stats__num {
+        color: $bleu;
+        font-weight: 400;
+        text-align: center;
+        padding: 5px 0;
+    }
 }

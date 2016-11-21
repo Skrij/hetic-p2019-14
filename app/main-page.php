@@ -58,7 +58,7 @@
             </div>
 
             <div class="animals">
-                <h2 class="container__title"> Une faune unique à préserver </h2>
+                <h2 class="container__title container__title--animals"> Une faune unique à préserver </h2>
                 
                 <div class="animals__liste">
                     <div class="animal__content animal__content--1 morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
@@ -68,18 +68,26 @@
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
-                                <div class="animal__img">
-                                    <img src="assets/images/narvals.png" alt="animal-narvals">
+
+                                <div class="animal-pop-up__desk">L'animal emblématique est répertorié comme étant presque menacé. 80 000 individus vivent dans la baie de Baffin mais seulement 7 000 narvals habitent encore la mer du Groenland. <br>
+                                Les narvals sont des nageurs lents. Leur capacité à plonger dans les profondeurs pour trouver leur proie en fait un habitant naturel des eaux profondes. Ils sont très adaptés à la banquise dense et peuvent survivre dans cet environnement pendant de longues périodes. <br>L'hiver est synonyme d’une alimentation intensive pour les narvals, le flétan du Groenland est leur proie principale. En été les baleines plongent à des profondeurs moins profondes, où ils mangent moins.</div>
+
+                                <div class="animal-pop-up__mob">
+                                    <div class="animal__img">
+                                        <img src="assets/images/narvals.png" alt="animal-narvals">
+                                    </div>
+                                    <div class="animal__info"> <span>Les narvals</span> (Monodon Monoceros) sont des cétacés à dents, habitant dans l’Arctique tout au long de l’année.</div>
+                                    <ul class="animal__stats">
+                                        <li>Statut de conservation : <div class="stats__num"> Presque menacée</div></li>
+                                        <li>Population : <div class="stats__num"> - </div></li>
+                                        <li>Longévité : <div class="stats__num">+ 100 ans</div></li>
+                                        <li>Poids : <div class="stats__num">1550 - 1900 kg</div></li>
+                                        <li>Régime : <div class="stats__num">Carnivore</div></li>
+                                    </ul>
+                                    
                                 </div>
-                                <div class="animal__info"> <span>Les narvals</span> (Monodon Monoceros) sont des cétacés à dents, habitant dans l’Arctique tout au long de l’année.</div>
-                                <ul class="animal__stats">
-                                    <li>Statut de conservation : <div class="stats__num"> Presque menacée</div></li>
-                                    <li>Population : <div class="stats__num"> - </div></li>
-                                    <li>Longévité : <div class="stats__num">+ 100 ans</div></li>
-                                    <li>Poids : <div class="stats__num">1550 - 1900 kg</div></li>
-                                    <li>Régime : <div class="stats__num">Carnivore</div></li>
-                                </ul>
-                                
+
+                                <div class="animal-pop-up__desk">Ces animaux sont classés parmi les plus sensibles au changement climatique en raison de leur étroite répartition géographique, de leur taille relativement faible, de leur reproduction lente et de leur dépendance vis-à-vis de la banquise notamment en terme d’alimentation. Avec le réchauffement, les espèces devraient s'étendre vers le nord et leurs possibilités d'alimentation devraient être endommagées. Au fur et à mesure que la banquise se contracte, ils seront exposés à leurs prédateurs.</div>
                             </div>
                         </div>
                     </div><!-- morph-button animal__content-1 -->
@@ -91,17 +99,26 @@
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
-                                <div class="animal__img">
-                                    <img src="assets/images/loup.png" alt="animal-loup">
+
+                                <div class="animal-pop-up__desk">Les renards arctiques vivant dans les zones intérieures de la toundra se nourrissent principalement de lemmings et de campagnols. Ils ne se reproduisent habituellement pas les années où les populations de lemmings sont faibles. <br>Les renards arctiques vivant dans les régions côtières comptent davantage sur les oiseaux marins, leurs œufs et leurs poussins.</div>
+                                
+                                <div class="animal-pop-up__mob">
+                                    <div class="animal__img">
+                                        <img src="assets/images/loup.png" alt="animal-loup">
+                                    </div>
+                                    <div class="animal__info"> <span>Les renards arctiques</span> (Alopex Galopus) habitent la toundra. Ils peuplent l’Alaska, le Canada, le Groenland, l’Islande, Svalbard, la Russie et la Scandinavie. Ils vivent dans les zones côtières ou intérieures de la toundra. </div>
+                                    <ul class="animal__stats">
+                                        <li>Statut de conservation : <div class="stats__num">Peu concernée</div></li>
+                                        <li>Population : <div class="stats__num"> Plusieurs centaines de milliers</div></li>
+                                        <li>Longévité : <div class="stats__num">3 - 6 ans</div></li>
+                                        <li>Poids : <div class="stats__num">3 - 8 kg</div></li>
+                                        <li>Régime : <div class="stats__num">Omnivore</div></li>
+                                    </ul>
                                 </div>
-                                <div class="animal__info"> <span>Les renards arctiques</span> (Alopex Galopus) habitent la toundra. Ils peuplent l’Alaska, le Canada, le Groenland, l’Islande, Svalbard, la Russie et la Scandinavie. Ils vivent dans les zones côtières ou intérieures de la toundra. </div>
-                                <ul class="animal__stats">
-                                    <li>Statut de conservation : <div class="stats__num">Peu concernée</div></li>
-                                    <li>Population : <div class="stats__num"> Plusieurs centaines de milliers</div></li>
-                                    <li>Longévité : <div class="stats__num">3 - 6 ans</div></li>
-                                    <li>Poids : <div class="stats__num">3 - 8 kg</div></li>
-                                    <li>Régime : <div class="stats__num">Omnivore</div></li>
-                                </ul>
+
+                                <div class="animal-pop-up__desk">Les scientifiques pensent qu'il existe deux grandes menaces auxquelles : <br>
+                                - Les renards habitant les régions de la toundra inférieure pourraient perdre leur habitat en raison d'un déplacement prévu de la forêt boréale vers le nord. Les populations de lemmings diminueront également probablement et cela aura un impact plus profond sur la survie des renards. De plus, un déplacement des renards roux vers le nord menacera directement les renards arctiques. <br>
+                                - Les renards habitant des régions plus septentrionales ne pourront plus parcourir de longues distances pour se nourrir et se reproduire.</div>
                                 
                             </div>
                         </div>
@@ -114,18 +131,25 @@
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
-                                <div class="animal__img">
-                                    <img src="assets/images/balaine.png" alt="animal-balaine">
+
+                                <div class="animal-pop-up__desk">Les populations de baleines boréales ont été durement touchées par la chasse commerciale. Lorsque la chasse a cessé, peu de baleines boréales étaient encore en vie. Leur population a néanmoins augmenté ces dernières années. Aujourd'hui, la principale menace est la fonte des glaces due au changement climatique. Depuis les années 1970, la perturbation des activités d'exploration et d'extraction de pétrole et de gaz dans la région arctique inquiète et pourrait affecter les baleines boréales.</div>
+
+                                <div class="animal-pop-up__mob">
+                                    <div class="animal__img">
+                                        <img src="assets/images/balaine.png" alt="animal-balaine">
+                                    </div>
+                                    <div class="animal__info"> <span>Les baleines boréales</span> (Balaena Mysticetus) vivent principalement dans l’Arctique et ses mers adjacentes.  </div>
+                                    <ul class="animal__stats">
+                                        <li>Statut de conservation : <div class="stats__num">Préoccupation mineure</div></li>
+                                        <li>Population : <div class="stats__num">14 400 individus</div></li>
+                                        <li>Longévité : <div class="stats__num">+ 100 ans</div></li>
+                                        <li>Poids : <div class="stats__num">75 - 100 tonnes</div></li>
+                                        <li>Régime : <div class="stats__num">Carnivore</div></li>
+                                    </ul>
+                                    
                                 </div>
-                                <div class="animal__info"> <span>Les baleines boréales</span> (Balaena Mysticetus) vivent principalement dans l’Arctique et ses mers adjacentes.  </div>
-                                <ul class="animal__stats">
-                                    <li>Statut de conservation : <div class="stats__num">Préoccupation mineure</div></li>
-                                    <li>Population : <div class="stats__num">14 400 individus</div></li>
-                                    <li>Longévité : <div class="stats__num">+ 100 ans</div></li>
-                                    <li>Poids : <div class="stats__num">75 - 100 tonnes</div></li>
-                                    <li>Régime : <div class="stats__num">Carnivore</div></li>
-                                </ul>
-                                
+
+                                <div class="animal-pop-up__desk">Les baleines boréales sont bien adaptées aux eaux couvertes par la glace même si elles utilisent également des habitats en eau libre. En hiver, les eaux couvertes par la glace fournissent un habitat sûr pour le vêlage et l'élevage des jeunes, la glace les protégeant des orques. Par conséquent, la fonte des glaces peut accroître la menace de prédation par les orques.</div>
                             </div>
                         </div>
                     </div><!-- morph-button animal__content-3 -->
@@ -137,17 +161,25 @@
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
-                                <div class="animal__img">
-                                    <img src="assets/images/ours.png" alt="animal-ours">
+
+                                <div class="animal-pop-up__desk">Les ours polaires ne sont pas rassemblés au sein d’un unique groupe dans l'Arctique. Ils sont répartis en 19 groupes plus ou moins isolés, appelés stocks ou populations. <br>
+                                Ils vivent principalement dans les régions arctiques du Canada, du Groenland, de la Norvège continentale, de la Fédération de Russie, de l'Alaska, de Svalbard et de Jan-Mayen et sur la glace entourant le Nord.</div>
+
+                                <div class="animal-pop-up__mob">
+                                    <div class="animal__img">
+                                        <img src="assets/images/ours.png" alt="animal-ours">
+                                    </div>
+                                    <div class="animal__info"> <span>L’ours polaire</span> (Ursus Maritimus) est le plus grand ours du monde. Les ours polaires vivent sur les eaux glacées de l’Arctique qui assurent leur survie. </div>
+                                    <ul class="animal__stats">
+                                        <li>Statut de conservation : <div class="stats__num">Vulnérable</div></li>
+                                        <li>Population : <div class="stats__num">20 000 - 25 000 individus</div></li>
+                                        <li>Longévité : <div class="stats__num">25 - 30 ans</div></li>
+                                        <li>Poids : <div class="stats__num">410 - 720 kg</div></li>
+                                        <li>Régime : <div class="stats__num">Carnivore</div></li>
+                                    </ul>
                                 </div>
-                                <div class="animal__info"> <span>L’ours polaire</span> (Ursus Maritimus) est le plus grand ours du monde. Les ours polaires vivent sur les eaux glacées de l’Arctique qui assurent leur survie. </div>
-                                <ul class="animal__stats">
-                                    <li>Statut de conservation : <div class="stats__num">Vulnérable</div></li>
-                                    <li>Population : <div class="stats__num">20 000 - 25 000 individus</div></li>
-                                    <li>Longévité : <div class="stats__num">25 - 30 ans</div></li>
-                                    <li>Poids : <div class="stats__num">410 - 720 kg</div></li>
-                                    <li>Régime : <div class="stats__num">Carnivore</div></li>
-                                </ul>
+
+                                <div class="animal-pop-up__desk">En 2007, une équipe de recherche géologique des États-Unis a conclu que les deux tiers des ours polaires pourraient disparaître d'ici 2050 à cause des gaz à effet de serre. Un espoir subsiste si l’émission des gaz à effet de serre diminue au cours des prochaines années. Les résultats des modèles mathématiques de climat indiquent que si les gaz à effet de serre sont atténués, plus de banquise serait préservée et les ours polaires pourraient vivre tout au long de ce siècle.</div>
                                 
                             </div>
                         </div>
@@ -160,17 +192,25 @@
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
-                                <div class="animal__img">
-                                    <img src="assets/images/seal.png" alt="animal-seal">
+
+                                <div class="animal-pop-up__desk">Les phoques des glaces utilisent la glace pour élever leurs jeunes, muer et se reposer. La banquise doit être suffisamment stable pour élever les jeunes. <br>
+                                Pour les phoques barbus, la fonte de la banquise menace leur capacité à se reproduire. Ils l'utilisent pour donner naissance et élever leurs progénitures. De plus, ils auront plus de mal pour se nourrir.</div>
+
+                                <div class="animal-pop-up__mob">
+                                    <div class="animal__img">
+                                        <img src="assets/images/seal.png" alt="animal-seal">
+                                    </div>
+                                    <div class="animal__info"> L’Arctique est l’habitat de plusieurs espèces de phoques comme les phoques barbus ou les phoques annelés. L’ensemble des espèces est réuni sous le nom de <span>phoques des glaces</span>. </div>
+                                    <ul class="animal__stats">
+                                        <li>Statut de conservation : <div class="stats__num">Préoccupation mineure</div></li>
+                                        <li>Population : <div class="stats__num"> 350 000 à 500 000 individus</div></li>
+                                        <li>Longévité : <div class="stats__num">25 - 30 ans</div></li>
+                                        <li>Poids : <div class="stats__num">80 à 170 kilos</div></li>
+                                        <li>Régime : <div class="stats__num">Piscivore</div></li>
+                                    </ul>
                                 </div>
-                                <div class="animal__info"> L’ours polaire (Ursus Maritimus) est le plus grand ours du monde. Les ours polaires vivent sur les eaux glacées de l’Arctique qui assurent leur survie. </div>
-                                <ul class="animal__stats">
-                                    <li>Statut de conservation : <div class="stats__num">Vulnérable</div></li>
-                                    <li>Population : <div class="stats__num">20 000 - 25 000 individus</div></li>
-                                    <li>Longévité : <div class="stats__num">25 - 30 ans</div></li>
-                                    <li>Poids : <div class="stats__num">410 - 720 kg</div></li>
-                                    <li>Régime : <div class="stats__num">Carnivore</div></li>
-                                </ul>
+
+                                <div class="animal-pop-up__desk">Les phoques annelés vivent principalement dans l'Extrême-Arctique et dépendent de la banquise pour se reproduire, élever leurs des petits et se reposer. Les phoques annelés construisent des tanières sur la glace pour se mettre à l’abri. Une fonte des glaces plus rapide pourrait séparer prématurément les petits de leur mère, réduisant considérablement leurs chances de survie. De plus, un printemps plus chaud entraîne l’effondrement des toits des tanières, laissant les phoques annelés sans abri à la merci des prédateurs.</div>
                                 
                             </div>
                         </div>
@@ -183,17 +223,24 @@
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close">Close the dialog</span>
-                                <div class="animal__img">
-                                    <img src="assets/images/morse.png" alt="animal-morse">
+
+                                <div class="animal-pop-up__desk">Les morses passent la plupart de leur vie sur la banquise. Ils migrent avec lorsqu’elle s’étend et se déplace vers le sud en hiver. Elle leur fournit alors une plate-forme pour se reposer, s’alimenter et se reproduire. Pendant le printemps et l'été, les morses mâles restent principalement sur terre alors qu'un grand nombre de femelles restent sur la glace pour se reposer et s’occuper de leurs petits.</div>
+
+                                <div class="animal-pop-up__mob">
+                                    <div class="animal__img">
+                                        <img src="assets/images/morse.png" alt="animal-morse">
+                                    </div>
+                                    <div class="animal__info"> En Arctique, <span>les morses</span> (Odobenus Rosmarus) se trouvent dans le détroit de Béring, dans la mer de Chukchi entre la Russie et l’Alaska, dans la mer de Laptev à l’Ouest et dans l’Ouest de la mer du Beaufort à l’Est. </div>
+                                    <ul class="animal__stats">
+                                        <li>Statut de conservation : <div class="stats__num">Pas assez de données</div></li>
+                                        <li>Population : <div class="stats__num">Pas assez de données</div></li>
+                                        <li>Longévité : <div class="stats__num">40 ans</div></li>
+                                        <li>Poids : <div class="stats__num">1,4 tonnes</div></li>
+                                        <li>Régime : <div class="stats__num">Carnivore</div></li>
+                                    </ul>
                                 </div>
-                                <div class="animal__info"> En Arctique, <span>les morses</span> (Odobenus Rosmarus) se trouvent dans le détroit de Béring, dans la mer de Chukchi entre la Russie et l’Alaska, dans la mer de Laptev à l’Ouest et dans l’Ouest de la mer du Beaufort à l’Est. </div>
-                                <ul class="animal__stats">
-                                    <li>Statut de conservation : <div class="stats__num">Pas assez de données</div></li>
-                                    <li>Population : <div class="stats__num">Pas assez de données</div></li>
-                                    <li>Longévité : <div class="stats__num">40 ans</div></li>
-                                    <li>Poids : <div class="stats__num">1,4 tonnes</div></li>
-                                    <li>Régime : <div class="stats__num">Carnivore</div></li>
-                                </ul>
+
+                                <div class="animal-pop-up__desk">Au cours des dernières décennies, 75% de la banquise en été a disparu. Cette retraite a causé des problèmes aux morses. Ils doivent soit utiliser la glace dans des eaux plus profondes où il y a peu d'accès à la nourriture, soit s’installer sur la terre. Si la banquise continue de diminuer ou si la banquise estivale se retire trop rapidement, les femelles risquent d’avoir des difficultés pour nourrir et s’occuper de leurs petits.</div>
                                 
                             </div>
                         </div>
@@ -203,6 +250,8 @@
 
             </div> <!-- .animals -->
         </div> <!-- .evolution -->
+
+        <h1 class="title__desktop"> Préservons une nature unique et sauvons notre planète </h1>
 
         <div class="graph">
             <h2 class="container__title"> Une banquise à protéger </h2>    
@@ -221,11 +270,11 @@
                     <div class="threat__title"> Shell </div>
 
                     <div class="morph-content" style="overflow: scroll">
-                        <div class="animal__pop-up">
+                        <div class="threat__pop-up">
                             <span class="icon icon-close">Close the dialog</span>
-                            <div class="animal__info"> <span>Shell</span> est l’une des plus grandes sociétés énergétiques de la planète. <br><br>
+                            <div class="threat__info"> <span>Shell</span> est l’une des plus grandes sociétés énergétiques de la planète. <br><br>
                             La compagnie a investi des milliards pour réaliser forages dans l’extrême Nord, Notamment en Alaska où les résultats furent désastreux à cause de problèmes de sécurité. La compagnie a annoncé un arrêt des opérations en 2013 mais voulait revenir dès que possible en Arctique. Après avoir repris ses activités en 2014, <span>Shell</span> s’est cependant retiré en 2016 sous la pression de millions de citoyens.</div>
-                            <ul class="animal__stats">
+                            <ul class="threat__stats">
                                 <li>Date de création : <div class="stats__num">1907</div></li>
                                 <li>Statuts : <div class="stats__num">Se retire de l’Arctique en 2016</div></li>
                             </ul>
@@ -241,13 +290,13 @@
                     <div class="threat__title"> Statoil </div>
 
                     <div class="morph-content" style="overflow: scroll">
-                        <div class="animal__pop-up">
+                        <div class="threat__pop-up">
                             <span class="icon icon-close">Close the dialog</span>
-                            <div class="animal__info"> <span>Statoil</span> est une société pétrolières norvégienne qui est connue pour ses normes sur le forage offshore. <br><br>
+                            <div class="threat__info"> <span>Statoil</span> est une société pétrolières norvégienne qui est connue pour ses normes sur le forage offshore. <br><br>
                             En réalité, la Norvège est devenue l’un des états le plus agressifs et les plus dangereux pour l’Arctique. Malgré le fait que la Norvège fasse parti du comité de protection de l’Arctique, elle continue de repousser toujours plus loin les frontières des exploitations pétrolières. <br>
                             La Norvège est aujourd’hui le pays dont les forages pétroliers sont les plus avancés en Arctique. STATOIL possède actuellement 3 stations de forages dans le Nord de la Norvège.
                             </div>
-                            <ul class="animal__stats">
+                            <ul class="threat__stats">
                                 <li>Date de création : <div class="stats__num">1972</div></li>
                                 <li>Statuts : <div class="stats__num">Présent depuis 2013</div></li>
                                 <li>Barils de pétrole produits : <div class="stats__num">2 100 000</div></li>
@@ -265,11 +314,11 @@
                     <div class="threat__title"> Rosneft </div>
 
                     <div class="morph-content" style="overflow: scroll">
-                        <div class="animal__pop-up">
+                        <div class="threat__pop-up">
                             <span class="icon icon-close">Close the dialog</span>
-                            <div class="animal__info"> <span>Rosnet</span> se démarque par les marées noires terrestres dont elle est la source en Arctique. Elle détruit la vie de milliers de personnes et anéantit une région entière. <br><br>
+                            <div class="threat__info"> <span>Rosnet</span> se démarque par les marées noires terrestres dont elle est la source en Arctique. Elle détruit la vie de milliers de personnes et anéantit une région entière. <br><br>
                             La compagnie a laissé la Sibérie dans un état environnemental catastrophique avec plus de 14 000 ruptures de pipeline par an. Il est difficile de croire que <span>Rosnet</span> sera plus respectueux de l’environnement dans le futur. </div>
-                            <ul class="animal__stats">
+                            <ul class="threat__stats">
                                 <li>Date de création : <div class="stats__num">1993</div></li>
                                 <li>Statuts : <div class="stats__num">Présent depuis 2013</div></li>
                                 <li>Barils de pétrole produits : <div class="stats__num">2 454 000</div></li>
@@ -287,11 +336,11 @@
                     <div class="threat__title"> Gazprom </div>
 
                     <div class="morph-content" style="overflow: scroll">
-                        <div class="animal__pop-up">
+                        <div class="threat__pop-up">
                             <span class="icon icon-close">Close the dialog</span>
-                            <div class="animal__info"> <span>Gazprom</span> est la plus grande menace pour l’Arctique. Ils ont lancé des forages industriels au second trimestre 2013 à Prirazlomonoe. <br><br>
+                            <div class="threat__info"> <span>Gazprom</span> est la plus grande menace pour l’Arctique. Ils ont lancé des forages industriels au second trimestre 2013 à Prirazlomonoe. <br><br>
                             <span>Gazprom</span> ignore le fait qu’il n'existe actuellement aucune technologie permettant de nettoyer efficacement les marées noires dans l’océan Arctique. Selon les documents gouvernementaux, le traitement des marées noires est “presque impossible” et des erreurs inévitables détruiraient un environnement déjà fragile. </div>
-                            <ul class="animal__stats">
+                            <ul class="threat__stats">
                                 <li>Date de création : <div class="stats__num">1989</div></li>
                                 <li>Statuts : <div class="stats__num">Présent depuis 2013</div></li>
                                 <li>Barils de pétrole produits : <div class="stats__num">Non connu</div></li>
@@ -304,7 +353,7 @@
 
             </div> <!-- threats__liste -->
 
-            </div>    
+            
             <p class="threats__text-container text-container"> <span>L'exploitation du pétrole</span>, des métaux précieux ou des ressources halieutiques est une menace importante pour l’Arctique et pour le monde. En effet, <span>les risques</span> de ces exploitations sont grands et <span>certaines espèces n’y survivront pas</span>. Mais ce n’est pas tout, cela pourrait provoquer des marées noires, de la pollution sous-marine et l’arrivée d’espèces invasives qui amèneraient à une <span>destruction environnementale</span>.</p>
         </div>
 

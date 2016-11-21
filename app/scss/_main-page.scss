@@ -18,6 +18,11 @@
     margin: 40px auto;
     width: 70vw;
     font-weight: 400;
+    @include medium {
+        position: absolute;
+        text-align: left;
+        left: 80px;
+    }
 }
 
 .text-container {
@@ -25,10 +30,26 @@
     font-size: 14px;
     margin: auto;
     text-align: justify;
-    @include medium {font-size: 16px;}
+    @include medium {
+        font-size: 20px;
+        padding: 0 50px 0 0;
+        width: 60vw;
+    }
     span {
         color: $bleu;
         font-weight: 400;
     }
 
+}
+
+h1.title__desktop{
+    display: none;
+    @include medium {
+        display: flex;
+        justify-content: center;
+       
+        font-weight: 400;
+        margin-top: -50px;
+        font-size: 2.7em;
+    }
 }

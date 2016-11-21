@@ -180,7 +180,9 @@
 .morph-button-modal-3 > button,
 .morph-button-modal-3 .morph-content {
 	background-color: #5f545a;
-	
+	@include medium {
+        background-color: transparent;
+    }
 }
 
 .morph-button-modal-4 {

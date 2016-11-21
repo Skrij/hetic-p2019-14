@@ -1,3 +1,7 @@
+.evolution {
+  position: relative;
+}
+
 .evolution__svg-container {
     width: 100vw;
     height: 550px;
@@ -21,17 +25,22 @@
     position: relative;
     z-index: 1;
     &:after {
-      content: '';
-      position: absolute;
-      width: 190px;
-      height: 90px;
-      background-color: #5f545a;
-      border-radius: 10px;
-      opacity: 0.6;
-      top: 0;
-      left: 0;
-      z-index: -1;
-  }
+        content: '';
+        position: absolute;
+        width: 190px;
+        height: 90px;
+        background-color: #5f545a;
+        border-radius: 10px;
+        opacity: 0.6;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    @include medium {
+      margin-top: -250px;
+      margin-bottom: 280px;
+      margin-left: 150px;
+    }
 }
 
 .caption__content {
@@ -47,6 +56,12 @@
       border-radius: 3px;
       left: 11px;
       top: 8px;
+      @include medium {
+        width: 25px;
+        height: 15px;
+        left: 0;
+        top: 10px;
+      }
     }
     &.caption__content--2::after {
       background-color: #8bd5d6;
@@ -54,4 +69,5 @@
     &.caption__content--3::after {
       background-color: #a56b72;
     }
+    @include medium {font-size: 20px;}
 }

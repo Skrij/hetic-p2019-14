@@ -1,22 +1,76 @@
+.container__title--animals {
+    @include medium {
+        display: none;
+    }
+
+}
+
 .animals__liste {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    .animal__content {
-        width: 40vw;
+    .morph-button-modal-2.open .morph-content {
+    @include medium {
+        margin: -250px 0 0 -570px;
+        height: 550px;
+        width: 70vw !important;
+    }   
+}
+}
+
+.animal__content {
+    width: 40vw;
+    text-align: center;
+    height: 120px;
+    @include medium {
+        width: auto;
         text-align: center;
         height: 120px;
+        position: absolute;
+        &.animal__content--1 {
+            top: 420px;
+            left: 20vw;
+        }
+        &.animal__content--2 {
+            right: 25vw;
+            top: 140px;
+        }
+        &.animal__content--3 {
+            top: 0;
+            margin-left: -80px;
+        }
+        &.animal__content--4 {
+            top: 200px;
+            margin-left: -20px;
+        }
+        &.animal__content--5 {
+            top: 250px;
+            left: 24vw;
+        }
+        &.animal__content--6 {
+            top: 400px;
+        }
+        
     }
 }
+
+
 
 .animal__img {
 	img {
 	    border: 10px solid $bleu;
 	    border-radius: 55px;
 	}
+    @include medium {
+        &:hover {
+            transform: scale(1.1);
+            transition: all .3s ease-in;
+        }
+        transition: all .2s ease-in;
+    }
 }
 
-.animal__pop-up {
+.animal-pop-up__mob {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -24,8 +78,9 @@
     padding: 0 20px;
     .animal__img {
         padding: 40px 0 20px;
+        @include medium {order: 1;}
     }
-
+    @include medium {width: 30%;}
 }
 .animal__info {
     padding-bottom: 10px;
@@ -33,6 +88,7 @@
         color: $bleu;
         font-weight: 400;
     }
+    @include medium {padding: 45px 0;}
 }
 
 .animal__stats {
@@ -46,4 +102,37 @@
         text-align: center;
         padding: 5px 0;
     }
+    @include medium {
+        order: 2;
+        li {
+            display: flex;
+            width: 20vw;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
 }
+
+.morph-button-modal.open .morph-content {
+    background-color: #5f545a;
+}
+.morph-button-modal {
+    background-color: transparent;
+}
+
+.animal__pop-up {
+    @include medium {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.animal-pop-up__desk {
+    display: none;
+    @include medium {
+        display: block;
+        width: 30%;
+    }
+}
+
