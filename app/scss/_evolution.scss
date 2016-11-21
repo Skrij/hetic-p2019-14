@@ -7,7 +7,12 @@
         background-position: 50% 0%;
         width: 100vw;
         height: 575px;
+        @include medium {
+          background-image: url('../images/banquise_été-desk.png');
+          height: 1000px;
+        }
     }
+    @include medium {height: 1000px;}
 }
 
 .evolution__caption {

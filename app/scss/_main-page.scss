@@ -25,5 +25,8 @@
     font-size: 14px;
     margin: auto;
     text-align: justify;
-    span {color: $bleu}
+    span {
+        color: $bleu;
+        font-weight: 400;
+    }
 }

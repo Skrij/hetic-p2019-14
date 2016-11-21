@@ -1453,7 +1453,8 @@ input {
   margin: auto;
   text-align: justify; }
   .text-container span {
-    color: #1dabac; }
+    color: #1dabac;
+    font-weight: 400; }
 
 .join-us {
   margin-top: 40px;
@@ -1543,6 +1544,13 @@ input {
     background-position: 50% 0%;
     width: 100vw;
     height: 575px; }
+    @media (min-width: 768px) {
+      .evolution__svg-container .svg__content--1 {
+        background-image: url("../images/banquise_été-desk.png");
+        height: 1000px; } }
+  @media (min-width: 768px) {
+    .evolution__svg-container {
+      height: 1000px; } }
 
 .evolution__caption {
   margin-top: -125px;
