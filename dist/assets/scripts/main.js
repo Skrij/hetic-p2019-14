@@ -1,6 +1,7 @@
 document.querySelector('.action__button--sign').addEventListener("click", function(){
 	document.querySelector('.form').style.opacity =  '1';
 	document.querySelector('.form').style.zIndex =  '1';
+	document.querySelector('.intro').style.opacity =  '0';
 });
 
 document.querySelector('.form__submit').addEventListener("click", function(){
@@ -19,8 +20,4 @@ document.querySelector('.social__text').addEventListener("click", function(){
 	document.querySelector('.social').style.zIndex =  '0';
 	document.querySelector('.intro').style.opacity =  '1';
 });
-/*
-var date = new Date();
-var current_month = date.getMonth() + 1;
-console.log(current_month);*/
 

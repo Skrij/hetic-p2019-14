@@ -25,6 +25,7 @@ body {
 
 /*------ COLORS ------*/
 /*------ MEDIA QUERIES ------*/
+<<<<<<< HEAD
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
@@ -1036,6 +1037,14 @@ table {
     left: 0px; }
   .morph-button-sidebar.open .morph-content {
     height: 100% !important; } }
+=======
+#mq-medium {
+  display: none;
+  width: 100vw; }
+  @media (min-width: 768px) {
+    #mq-medium {
+      display: block; } }
+>>>>>>> origin/develop
 
 video {
   position: fixed;
@@ -1049,6 +1058,9 @@ video {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   background-size: cover; }
+  @media (max-width: 767px) {
+    video {
+      display: none; } }
 
 .intro, .form, .social {
   z-index: 10; }
@@ -1070,7 +1082,9 @@ video {
           perspective: 800px; }
   @media (min-width: 768px) {
     .home {
-      background-color: #1dabac; } }
+      background-color: #1dabac;
+      background-image: url("../images/home-desktop-bg.jpg");
+      background-size: cover; } }
 
 .intro {
   position: relative;
@@ -1382,7 +1396,9 @@ input {
   z-index: 0;
   opacity: 0;
   -webkit-transition: all .2s ease-in;
-  transition: all .2s ease-in; }
+  transition: all .2s ease-in;
+  background-color: #eddfc5;
+  border-radius: 8px; }
   @media (min-width: 768px) {
     .social {
       background-color: #eddfc5;

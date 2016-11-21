@@ -1,6 +1,7 @@
 document.querySelector('.action__button--sign').addEventListener("click", function(){
 	document.querySelector('.form').style.opacity =  '1';
 	document.querySelector('.form').style.zIndex =  '1';
+	document.querySelector('.intro').style.opacity =  '0';
 });
 
 document.querySelector('.form__submit').addEventListener("click", function(){

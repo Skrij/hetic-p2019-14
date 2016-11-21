@@ -1,5 +1,12 @@
+#mq-medium {
+    display: none;
+    width: 100vw;
+    @include medium { 
+        display: block;
+    }
+}
+
 video { 
-    // display: none;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -10,7 +17,10 @@ video {
     z-index: -10;
     -webkit-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
+    background-size: cover;
+    @include small { 
+        display: none;
+    }
 }
 
 .intro, .form, .social {
@@ -27,8 +37,8 @@ video {
     justify-content: center;
     @include medium { 
         background-color: $bleu;
-        // background-image: url('../images/home-desktop-bg.jpg');
-        // background-size: cover;
+        background-image: url('../images/home-desktop-bg.jpg');
+        background-size: cover;
     }
     perspective: 800px;
 }
