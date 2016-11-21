@@ -29,7 +29,10 @@
     .timeline-liste__content {
         font-size: 14px;
         padding: 5px; 
-        span {color: $bleu}
+        span {
+            color: $bleu;
+            font-weight: 400;
+        }
     }
     &:after {
         content: '';

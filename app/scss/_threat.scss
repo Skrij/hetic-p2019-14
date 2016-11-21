@@ -2,9 +2,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    .threat__content {
-        width: 50vw;
-        text-align: center;
-        height: 120px;
-    }
+    margin-bottom: 30px;   
+}
+
+.threat__content {
+    width: 40vw;
+    text-align: center;
+    height: 120px;
+    .animal__info {padding-top: 60px}
+}
+
+.threat__title {
+    margin-top: -25px;
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    right: 0;
 }

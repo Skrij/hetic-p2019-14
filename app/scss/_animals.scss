@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     .animal__content {
-        width: 50vw;
+        width: 40vw;
         text-align: center;
         height: 120px;
     }
@@ -14,4 +14,36 @@
 	    border: 10px solid $bleu;
 	    border-radius: 55px;
 	}
+}
+
+.animal__pop-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    .animal__img {
+        padding: 40px 0 20px;
+    }
+
+}
+.animal__info {
+    padding-bottom: 10px;
+    span {
+        color: $bleu;
+        font-weight: 400;
+    }
+}
+
+.animal__stats {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    width: 80vw;
+    .stats__num {
+        color: $bleu;
+        font-weight: 400;
+        text-align: center;
+        padding: 5px 0;
+    }
 }
