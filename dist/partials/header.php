@@ -16,8 +16,6 @@
     <script async src="./assets/scripts/main.js"></script>
     <script async src="./assets/scripts/date.js"></script>
 <<<<<<< HEAD
-    <script async src="./assets/scripts/utils.js"></script>
-    <script async src="./assets/scripts/flip-card.js"></script>
     <script src="./assets/scripts/classie.js"></script>
     <script src="./assets/scripts/uiMorphingButton_fixed.js"></script>
 =======
