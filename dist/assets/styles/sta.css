@@ -7,6 +7,13 @@ body {
 
 /*------ COLORS ------*/
 /*------ MEDIA QUERIES ------*/
+#mq-medium {
+  display: none;
+  width: 100vw; }
+  @media (min-width: 768px) {
+    #mq-medium {
+      display: block; } }
+
 video {
   position: fixed;
   top: 50%;
@@ -19,6 +26,9 @@ video {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   background-size: cover; }
+  @media (max-width: 767px) {
+    video {
+      display: none; } }
 
 .intro, .form, .social {
   z-index: 10; }
@@ -40,7 +50,9 @@ video {
           perspective: 800px; }
   @media (min-width: 768px) {
     .home {
-      background-color: #1dabac; } }
+      background-color: #1dabac;
+      background-image: url("../images/home-desktop-bg.jpg");
+      background-size: cover; } }
 
 .intro {
   position: relative;
@@ -76,7 +88,7 @@ video {
         margin-top: 50px;
         width: 350px;
         height: 480px;
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.42);
         border-radius: 8px; } }
 
 .intro__content {
@@ -276,7 +288,9 @@ video {
   z-index: 0;
   opacity: 0;
   -webkit-transition: all .2s ease-in;
-  transition: all .2s ease-in; }
+  transition: all .2s ease-in;
+  background-color: #eddfc5;
+  border-radius: 8px; }
   @media (min-width: 768px) {
     .form {
       background-color: #eddfc5;
@@ -352,7 +366,9 @@ input {
   z-index: 0;
   opacity: 0;
   -webkit-transition: all .2s ease-in;
-  transition: all .2s ease-in; }
+  transition: all .2s ease-in;
+  background-color: #eddfc5;
+  border-radius: 8px; }
   @media (min-width: 768px) {
     .social {
       background-color: #eddfc5;

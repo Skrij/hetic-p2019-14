@@ -4,6 +4,11 @@ $bleu: #1dabac;
 $bleu-text: #18979a;
 
 /*------ MEDIA QUERIES ------*/
+@mixin small {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
 @mixin medium {
     @media (min-width: 768px) {
         @content;
