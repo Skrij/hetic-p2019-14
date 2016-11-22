@@ -9,7 +9,7 @@
     <div class="intro">
         
         <div class="intro__content">
-            <p class="intro__datelimit">J-242</p>
+            <p class="intro__datelimit"></p>
             <p class="intro__title">Aidez-nous à <br> sauver l'Arctique</p>
         </div> <!-- .intro__container -->
 
