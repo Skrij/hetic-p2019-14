@@ -3,6 +3,7 @@
         display: flex;
         .text-container {
             padding-right: 130px;
+            padding-top: 120px;
         }
     }
 }
@@ -30,6 +31,7 @@
     .animal__info {padding-top: 60px}
     @include medium {
         width: 14vw;
+        padding-top: 50px;
     }
 }
 

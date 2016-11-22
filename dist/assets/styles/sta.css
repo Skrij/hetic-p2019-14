@@ -1455,7 +1455,8 @@ input {
     .container__title {
       position: absolute;
       text-align: left;
-      left: 80px; } }
+      left: 80px;
+      font-size: 34px; } }
 
 .text-container {
   width: 87vw;
@@ -1464,9 +1465,9 @@ input {
   text-align: justify; }
   @media (min-width: 770px) {
     .text-container {
-      font-size: 20px;
       padding: 0 50px 0 0;
-      width: 60vw; } }
+      width: 60vw;
+      font-size: 23px; } }
   .text-container span {
     color: #1dabac;
     font-weight: 400; }
@@ -1678,14 +1679,14 @@ h1.title__desktop {
         width: 25px;
         height: 15px;
         left: 0;
-        top: 10px; } }
+        top: 13px; } }
   .caption__content.caption__content--2::after {
     background-color: #8bd5d6; }
   .caption__content.caption__content--3::after {
     background-color: #a56b72; }
   @media (min-width: 770px) {
     .caption__content {
-      font-size: 20px; } }
+      font-size: 24px; } }
 
 @media (min-width: 770px) {
   .container__title--animals {
@@ -1873,7 +1874,8 @@ h1.title__desktop {
     display: -ms-flexbox;
     display: flex; }
     .threats .text-container {
-      padding-right: 130px; } }
+      padding-right: 130px;
+      padding-top: 120px; } }
 
 .threats__liste {
   display: -webkit-box;
@@ -1903,7 +1905,8 @@ h1.title__desktop {
     padding-top: 60px; }
   @media (min-width: 770px) {
     .threat__content {
-      width: 14vw; } }
+      width: 14vw;
+      padding-top: 50px; } }
 
 .threat__title {
   margin-top: -25px;

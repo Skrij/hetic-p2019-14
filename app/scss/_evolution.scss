@@ -60,7 +60,7 @@
         width: 25px;
         height: 15px;
         left: 0;
-        top: 10px;
+        top: 13px;
       }
     }
     &.caption__content--2::after {
@@ -69,5 +69,5 @@
     &.caption__content--3::after {
       background-color: #a56b72;
     }
-    @include medium {font-size: 20px;}
+    @include medium {font-size: 24px;}
 }
