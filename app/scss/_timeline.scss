@@ -52,21 +52,21 @@
     @include medium {
         &:nth-child(odd) {
             text-align: right;
-            margin-right: 51.39vw;
-            margin-left: 50px;
+            padding-right: 52vw;
+            padding-left: 50px;
             &:after {
                 right: 0;
-                left: auto;
-                margin-right: -4.2%;
+                left: 0;
+                margin: auto;
             }
         }
         &:nth-child(even) {
-            margin-left: 51.39vw;
-            margin-right: 71px;
+            padding-left: 52vw;
+            padding-right: 71px;
             &:after {
-                right: auto;
+                right: 0;
                 left: 0;
-                margin-left: -4.2%;
+                margin: auto;
             }
         }
     }

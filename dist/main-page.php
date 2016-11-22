@@ -67,7 +67,7 @@
                         </button>
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
-                                <span class="icon icon-close">Close the dialog</span>
+                                <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
 
                                 <div class="animal__img">
                                     <img src="assets/images/narvals.png" alt="animal-narvals">
@@ -96,7 +96,7 @@
                         </button>
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
-                                <span class="icon icon-close">Close the dialog</span>
+                                <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
 
                                 <div class="animal__img">
                                     <img src="assets/images/loup.png" alt="animal-loup">
@@ -126,7 +126,7 @@
                         </button>
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
-                                <span class="icon icon-close">Close the dialog</span>
+                                <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
 
                                 <div class="animal__img">
                                     <img src="assets/images/balaine.png" alt="animal-balaine">
@@ -154,7 +154,7 @@
                         </button>
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
-                                <span class="icon icon-close">Close the dialog</span>
+                                <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
 
                                 <div class="animal__img">
                                     <img src="assets/images/ours.png" alt="animal-ours">
@@ -165,7 +165,7 @@
                                     Ils vivent principalement dans les régions arctiques du Canada, du Groenland, de la Norvège continentale, de la Fédération de Russie, de l'Alaska, de Svalbard et de Jan-Mayen et sur la glace entourant le Nord. <br><br>Toutefois, en raison de la fonte des glaces imputée au réchauffement climatique, la banquise, habitat essentiel des ours polaires est menacée et avec elle <span>leurs survie</span>. Les ours peinent à trouver des proies dans certaines régions ce qui a un impact important sur leur nombre. Les ours polaires <span>ont besoin de la glace</span> aussi bien <span>pour leur survie</span> que <span>pour leur reproduction</span>.</div>
                                 </div>
                                 <ul class="animal__stats">
-                                    <li class="animal__img--desktop"><img src="assets/images/ours-polaire.jpg" alt="animal-ours"></li>
+                                    <li class="animal__img--desktop"><img src="assets/images/ours.jpg" alt="animal-ours"></li>
                                     <li>Statut de conservation : <div class="stats__num">Vulnérable</div></li>
                                     <li>Population : <div class="stats__num">20 000 - 25 000 individus</div></li>
                                     <li>Longévité : <div class="stats__num">25 - 30 ans</div></li>
@@ -183,7 +183,7 @@
                         </button>
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
-                                <span class="icon icon-close">Close the dialog</span>
+                                <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
 
                                 <div class="animal__img">
                                     <img src="assets/images/seal.png" alt="animal-seal">
@@ -211,7 +211,7 @@
                         </button>
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
-                                <span class="icon icon-close">Close the dialog</span>
+                                <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
 
                                 <div class="animal__img">
                                     <img src="assets/images/morse.png" alt="animal-morse">
@@ -258,7 +258,7 @@
 
                     <div class="morph-content" style="overflow: scroll">
                         <div class="threat__pop-up">
-                            <span class="icon icon-close">Close the dialog</span>
+                            <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
                             <div class="threat__info"> <span>Shell</span> est l’une des plus grandes sociétés énergétiques de la planète. <br><br>
                             La compagnie a investi des milliards pour réaliser forages dans l’extrême Nord, Notamment en Alaska où les résultats furent désastreux à cause de problèmes de sécurité. La compagnie a annoncé un arrêt des opérations en 2013 mais voulait revenir dès que possible en Arctique. Après avoir repris ses activités en 2014, <span>Shell</span> s’est cependant retiré en 2016 sous la pression de millions de citoyens.</div>
                             <ul class="threat__stats">
@@ -278,7 +278,7 @@
 
                     <div class="morph-content" style="overflow: scroll">
                         <div class="threat__pop-up">
-                            <span class="icon icon-close">Close the dialog</span>
+                            <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
                             <div class="threat__info"> <span>Statoil</span> est une société pétrolières norvégienne qui est connue pour ses normes sur le forage offshore. <br><br>
                             En réalité, la Norvège est devenue l’un des états le plus agressifs et les plus dangereux pour l’Arctique. Malgré le fait que la Norvège fasse parti du comité de protection de l’Arctique, elle continue de repousser toujours plus loin les frontières des exploitations pétrolières. <br>
                             La Norvège est aujourd’hui le pays dont les forages pétroliers sont les plus avancés en Arctique. STATOIL possède actuellement 3 stations de forages dans le Nord de la Norvège.
@@ -302,7 +302,7 @@
 
                     <div class="morph-content" style="overflow: scroll">
                         <div class="threat__pop-up">
-                            <span class="icon icon-close">Close the dialog</span>
+                            <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
                             <div class="threat__info"> <span>Rosnet</span> se démarque par les marées noires terrestres dont elle est la source en Arctique. Elle détruit la vie de milliers de personnes et anéantit une région entière. <br><br>
                             La compagnie a laissé la Sibérie dans un état environnemental catastrophique avec plus de 14 000 ruptures de pipeline par an. Il est difficile de croire que <span>Rosnet</span> sera plus respectueux de l’environnement dans le futur. </div>
                             <ul class="threat__stats">
@@ -324,7 +324,7 @@
 
                     <div class="morph-content" style="overflow: scroll">
                         <div class="threat__pop-up">
-                            <span class="icon icon-close">Close the dialog</span>
+                            <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
                             <div class="threat__info"> <span>Gazprom</span> est la plus grande menace pour l’Arctique. Ils ont lancé des forages industriels au second trimestre 2013 à Prirazlomonoe. <br><br>
                             <span>Gazprom</span> ignore le fait qu’il n'existe actuellement aucune technologie permettant de nettoyer efficacement les marées noires dans l’océan Arctique. Selon les documents gouvernementaux, le traitement des marées noires est “presque impossible” et des erreurs inévitables détruiraient un environnement déjà fragile. </div>
                             <ul class="threat__stats">
@@ -353,7 +353,7 @@
                     <button class="join-us__button" type="button"> Rejoingez-nous </button>
 
                     <div class="morph-content">
-                        <span class="icon icon-close">Close the dialog</span>
+                        <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
                         <div class="form">
                             <div class="form__text">
                                 <div class="form__count">8192413</div>

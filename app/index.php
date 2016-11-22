@@ -15,18 +15,18 @@
 
          <div class="intro__action">
             <div class="action__button action__button--sign">
-                <img src="assets/images/icon-sign.svg" >
+                <i class="material-icons">mode_edit</i>
                 <p class="action__text">Signez</p>
             </div>
             <div class="action__button action__button--share">
-                <img src="assets/images/icon-share.svg" >
+                <i class="material-icons">share</i>
                 <p class="action__text">Partagez</p>
             </div>
         </div> <!-- .intro__action -->
 
         <div class="intro__more">
             <a href="main-page.php"> En savoir plus 
-               <img src="assets/images/icon-more.svg" >
+               <i class="material-icons">more</i>
             </a>
         </div>
 

@@ -76,10 +76,6 @@
 	content: "\e600";
 }
 
-.icon-close::before {
-	content: "\e601";
-}
-
 .icon-play::before {
 	content: "\e602";
 }
@@ -95,7 +91,7 @@
 }
 
 .icon-close:hover {
-	color: #a50a05;
+	color: #1dabac;
 }
 
 /* Styles for dummy content */
