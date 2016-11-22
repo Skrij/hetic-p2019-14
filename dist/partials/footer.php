@@ -56,8 +56,12 @@
 						}
 					} );
 				} );
-
 			})();
+
+			(function() {
+				new UIMorphingButton( document.querySelector( '.morph-button' ) );
+			})();
+
 		</script>   
   </body>
   

@@ -342,6 +342,7 @@
 
             
             <p class="threats__text-container text-container"> <span>L'exploitation du pétrole</span>, des métaux précieux ou des ressources halieutiques est une menace importante pour l’Arctique et pour le monde. En effet, <span>les risques</span> de ces exploitations sont grands et <span>certaines espèces n’y survivront pas</span>. Mais ce n’est pas tout, cela pourrait provoquer des marées noires, de la pollution sous-marine et l’arrivée d’espèces invasives qui amèneraient à une <span>destruction environnementale</span>.</p>
+
         </div>
 
         <div class="join-us">
@@ -349,31 +350,22 @@
 
             <h3 class="join-us__title"> En préservant l'Arctique, c'est nous-même que nous préservons.</h3>
             
-            <div class="threat__content morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
+            <div class="morph-button morph-button-inflow morph-button-inflow-1">
                     <button class="join-us__button" type="button"> Rejoingez-nous </button>
 
                     <div class="morph-content">
-                        <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
-                        <div class="form">
-                            <div class="form__text">
-                                <div class="form__count">8192413</div>
-                                personnes ont déjà agi
-                            </div>
-
+                        <div class="content-style-form content-style-form-4">
+                            <h2 class="oin-us__button morph-clone">Rejoingez-nous</h2>
                             <form class="form__content" action="#" method="post">
                                 <input type="text" name="lastname" placeholder="Nom" required/>
                                 <input type="text" name="firstname" placeholder="Prénom" required/>
                                 <input type="email" name="email" placeholder="E-mail" required/>
                                 <input class="form__submit" type="submit" value="Rejoignez le mouvement">
                             </form>
-                        </div><!-- .form -->
+                        </div>
                         
                     </div>
-                </div><!-- morph-button threat__content -->
-
-
-
-
+            </div><!-- morph-button threat__content -->   
 
             
             <div class="join-us__social">
