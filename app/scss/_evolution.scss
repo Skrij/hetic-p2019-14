@@ -6,13 +6,13 @@
     width: 100vw;
     height: 550px;
     .svg__content--1 {
-        background-image: url('../images/banquise_été-mob.png');
+        background-image: url('../images/banquise-mob.png');
         background-repeat: no-repeat;
         background-position: 50% 0%;
         width: 100vw;
         height: 575px;
         @include medium {
-          background-image: url('../images/banquise_été-desk.png');
+          background-image: url('../images/banquise-desk.png');
           height: 1000px;
         }
     }
