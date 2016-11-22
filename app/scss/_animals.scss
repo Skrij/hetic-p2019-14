@@ -70,7 +70,7 @@
     }
 }
 
-.animal-pop-up__mob {
+.animal__pop-up {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -78,9 +78,16 @@
     padding: 0 20px;
     .animal__img {
         padding: 40px 0 20px;
-        @include medium {order: 1;}
+        @include medium {display: none;}
     }
-    @include medium {width: 30%;}
+    @include medium {
+        height: 550px !important;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        font-size: 18px;
+    }
 }
 .animal__info {
     padding-bottom: 10px;
@@ -88,7 +95,11 @@
         color: $bleu;
         font-weight: 400;
     }
-    @include medium {padding: 45px 0;}
+    @include medium {
+        width: 50%;
+        order: 1;
+        text-align: justify;
+    }
 }
 
 .animal__stats {
@@ -101,13 +112,13 @@
         font-weight: 400;
         text-align: center;
         padding: 5px 0;
+        @include medium {padding: 5px 0 5px 5px;}
     }
     @include medium {
-        order: 2;
         li {
             display: flex;
-            width: 20vw;
-            justify-content: space-between;
+            width: 22vw;
+            justify-content: flex-end;
             align-items: center;
         }
     }
@@ -120,22 +131,25 @@
     background-color: transparent;
 }
 
-.animal__pop-up {
-    @include medium {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-}
-
 .animal-pop-up__desk {
     display: none;
     @include medium {
         display: block;
-        width: 30%;
         span {
             color: $bleu;
             font-weight: 400;
+        }
+    }
+}
+
+.animal__img--desktop {
+    display: none;
+    @include medium{
+        display: initial;
+        img {
+            width: 400px;
+            height: auto;
+            padding-bottom: 20px;
         }
     }
 }
