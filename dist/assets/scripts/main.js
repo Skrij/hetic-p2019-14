@@ -18,8 +18,8 @@ document.querySelector('.form__submit').addEventListener("click", function(){
 });
 
 document.querySelector('.action__button--share').addEventListener("click", function(){
-	document.querySelector('.social').style.opacity =  '1';
-	document.querySelector('.social').style.zIndex =  '1';
+	document.querySelector('.social').style.opacity =  '10';
+	document.querySelector('.social').style.zIndex =  '10';
 	document.querySelector('.intro').style.opacity =  '0';
 });
 
