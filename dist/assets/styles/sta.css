@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather+Sans:800);
 @font-face {
   font-weight: normal;
@@ -1556,6 +1557,23 @@ h1.title__desktop {
         right: 0;
         margin: auto;
         height: 85%; } }
+  .timeline:before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 45px;
+    background-image: url("../images/flèche.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    bottom: 0;
+    left: 9px; }
+    @media (min-width: 770px) {
+      .timeline:before {
+        bottom: -50px;
+        left: 0;
+        right: 0;
+        margin: auto; } }
   @media (min-width: 770px) {
     .timeline {
       margin-bottom: 100px; } }
