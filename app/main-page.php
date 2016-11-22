@@ -360,7 +360,34 @@
             <div class="join-us__img"></div>
 
             <h3 class="join-us__title"> En préservant l'Arctique, c'est nous-même que nous préservons.</h3>
-            <div class="join-us__button"> Rejoingez-nous</div>
+            
+            <div class="threat__content morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
+                    <button class="join-us__button" type="button"> Rejoingez-nous </button>
+
+                    <div class="morph-content">
+                        <span class="icon icon-close">Close the dialog</span>
+                        <div class="form">
+                            <div class="form__text">
+                                <div class="form__count">8192413</div>
+                                personnes ont déjà agi
+                            </div>
+
+                            <form class="form__content" action="#" method="post">
+                                <input type="text" name="lastname" placeholder="Nom" required/>
+                                <input type="text" name="firstname" placeholder="Prénom" required/>
+                                <input type="email" name="email" placeholder="E-mail" required/>
+                                <input class="form__submit" type="submit" value="Rejoignez le mouvement">
+                            </form>
+                        </div><!-- .form -->
+                        
+                    </div>
+                </div><!-- morph-button threat__content -->
+
+
+
+
+
+            
             <div class="join-us__social">
                 <a href="javascript();">
                     <img class="social-media" src="assets/images/fb.png" alt="facebook">

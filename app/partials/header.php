@@ -11,6 +11,7 @@
     <script src="src/js/libs/html5shiv.js"></script>
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="./assets/styles/sta.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <script async src="./assets/scripts/modernizr.custom.js"></script>
     <script async src="./assets/scripts/main.js"></script>

@@ -1548,6 +1548,16 @@ h1.title__desktop {
     height: 97%;
     left: 20px;
     top: 0; }
+    @media (min-width: 770px) {
+      .timeline:after {
+        left: 0;
+        top: 150px;
+        right: 0;
+        margin: auto;
+        height: 85%; } }
+  @media (min-width: 770px) {
+    .timeline {
+      margin-bottom: 100px; } }
 
 .timeline__title {
   padding: 35px 0 20px 35px;
@@ -1555,7 +1565,9 @@ h1.title__desktop {
   font-size: 20px; }
   @media (min-width: 770px) {
     .timeline__title {
-      font-size: 24px; } }
+      font-size: 34px;
+      text-align: center;
+      padding-bottom: 80px; } }
 
 .timeline-liste__container {
   list-style: none;
@@ -1563,15 +1575,9 @@ h1.title__desktop {
   padding: 0 10px 20px 10px; }
   .timeline-liste__container .timeline-liste__date {
     font-weight: 500; }
-  .timeline-liste__container .timeline-liste__content {
-    font-size: 14px;
-    padding: 5px; }
-    .timeline-liste__container .timeline-liste__content span {
-      color: #1dabac;
-      font-weight: 400; }
     @media (min-width: 770px) {
-      .timeline-liste__container .timeline-liste__content {
-        font-size: 16px; } }
+      .timeline-liste__container .timeline-liste__date {
+        font-size: 24px; } }
   .timeline-liste__container:after {
     content: '';
     position: absolute;
@@ -1581,6 +1587,36 @@ h1.title__desktop {
     background-color: #1dabac;
     left: -27px;
     top: 0; }
+  @media (min-width: 770px) {
+    .timeline-liste__container:nth-child(odd) {
+      text-align: right;
+      margin-right: 51.39vw;
+      margin-left: 50px; }
+      .timeline-liste__container:nth-child(odd):after {
+        right: 0;
+        left: auto;
+        margin-right: -4.2%; }
+    .timeline-liste__container:nth-child(even) {
+      margin-left: 51.39vw;
+      margin-right: 71px; }
+      .timeline-liste__container:nth-child(even):after {
+        right: auto;
+        left: 0;
+        margin-left: -4.2%; } }
+
+@media (min-width: 770px) {
+  .timeline__liste {
+    padding: 0; } }
+
+.timeline-liste__content {
+  font-size: 14px;
+  padding: 5px; }
+  .timeline-liste__content span {
+    color: #1dabac;
+    font-weight: 400; }
+  @media (min-width: 770px) {
+    .timeline-liste__content {
+      font-size: 20px; } }
 
 .evolution {
   position: relative; }
