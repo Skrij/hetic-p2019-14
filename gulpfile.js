@@ -52,9 +52,9 @@ gulp.task('images', function() {
 
 gulp.task('build', ['default', 'watch-php', 'watch-js','images'], function()
     {
-        sync.init({
-            proxy: 'lcac.dev/hetic-p2019-14/dist/',
-            port: '80'
-        })
+        // sync.init({
+        //     proxy: 'lcac.dev/hetic-p2019-14/dist/',
+        //     port: '80'
+        // })
     });
 

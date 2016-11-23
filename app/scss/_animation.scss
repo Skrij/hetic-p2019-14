@@ -1,0 +1,21 @@
+@keyframes fleche-mob {
+  0% {height: 1%;}
+  100% {height: 97%;}
+}
+
+@keyframes fleche-desk {
+  0% {height: 1%;}
+  100% {height: 85%;}
+}
+
+@keyframes fleche {
+  0% {opacity: 0}
+  70% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@keyframes timeline {
+  0% {opacity: 0; padding-top: 20px;}
+  30% {opacity: 0; padding-top: 20px;}
+  100% {opacity: 1; padding-top: 0;}
+}

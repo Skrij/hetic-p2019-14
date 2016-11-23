@@ -3,8 +3,51 @@
     <div class="main-page__container"> 
 
         <div class="join__container">
-            <div class="join__content join__content--sign"> Signez </div>
-            <div class="join__content join__content--share"> Partager </div>
+            
+
+            <div class="join-home__content morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
+                    <button type="button" class="join__content join__content--sign"> Signez </button>
+
+                    <div class="morph-content" style="overflow: scroll">
+                        <div class="form form--home">
+                            <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
+                            <div class="form__text">
+                                <div class="form__count">8192413</div>
+                                personnes ont déjà agi
+                            </div>
+
+                            <form class="form__content" action="#" method="post">
+                                <input type="text" name="lastname" placeholder="Nom*" required/>
+                                <input type="text" name="firstname" placeholder="Prénom*" required/>
+                                <input type="email" name="email" placeholder="E-mail*" required/>
+                                <input class="form__submit" type="submit" value="Rejoignez le mouvement">
+                            </form>
+                        </div><!-- .form -->
+                    </div>
+                </div><!-- morph-button threat__content -->
+
+                <div class="join-home__content morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
+                    <button type="button" class="join__content join__content--share"> Partager </button>
+
+                    <div class="morph-content" style="overflow: scroll">
+                        <div class="social social--home">
+                            <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
+                            <div class="social__liste">
+                                <a class="social__link twitter" href="https://twitter.com/share?url=petitionarctique.com&amp;text=J'ai%20sauvé%20l'Arctique.%20Faites%20comme%20moi,%20signez.&amp;hashtags=SaveTheArctic" target="_blank"></a>
+                                
+                                <a class="social__link facebook" href="http://www.facebook.com/sharer.php?u=petitionarctique.com" target="_blank"></a>
+
+                                <a class="social__link googleplus" href="https://plus.google.com/share?url=petitionarctique.com" target="_blank"></a>
+                            </div>
+
+                            <div class="social__text">
+                                Partagez notre cause sur les réseaux sociaux
+                            </div><!-- .social__text -->
+
+                        </div><!-- .social -->
+                    </div>
+                </div><!-- morph-button threat__content -->
+
         </div> <!-- .join__container -->
 
         <div class="timeline">
@@ -355,11 +398,11 @@
 
                     <div class="morph-content">
                         <div class="content-style-form content-style-form-4">
-                            <h2 class="oin-us__button morph-clone">Rejoingez-nous</h2>
+                            <h2 class="join-us__button morph-clone">Rejoingez-nous</h2>
                             <form class="form__content" action="#" method="post">
-                                <input type="text" name="lastname" placeholder="Nom" required/>
-                                <input type="text" name="firstname" placeholder="Prénom" required/>
-                                <input type="email" name="email" placeholder="E-mail" required/>
+                                <input class="join-us__input" type="text" name="lastname" placeholder="Nom" required/>
+                                <input class="join-us__input" type="text" name="firstname" placeholder="Prénom" required/>
+                                <input class="join-us__input" type="email" name="email" placeholder="E-mail" required/>
                                 <input class="form__submit" type="submit" value="Rejoignez le mouvement">
                             </form>
                         </div>

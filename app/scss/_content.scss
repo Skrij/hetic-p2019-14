@@ -197,18 +197,18 @@
 }
 
 .content-style-form input[type="text"],
-.content-style-form input[type="password"] {
+.content-style-form input[type="email"] {
 	padding: 10px;
-	width: 100%;
+	width: 90%;
+	margin: 5px auto;
 	border: 2px solid #ebd3bd;
 	background: transparent;
 	color: #b09a86;
 	font-weight: 300;
-	font-size: 2.2em;
 }
 
 .content-style-form input[type="text"]:focus,
-.content-style-form input[type="password"]:focus {
+.content-style-form input[type="email"]:focus {
 	border-color: $bleu-text;
 	color: $bleu-text;
 }
@@ -322,7 +322,8 @@
 	perspective: 1000px;
 }
 
-.content-style-form-4 input[type="text"] {
+.content-style-form-4 input[type="text"],
+.content-style-form-4 input[type="email"] {
 	border: none;
 	background-color: #f0f0f0;
 }
