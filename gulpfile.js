@@ -40,21 +40,23 @@ gulp.task('watch-php', function(){
 });
 
 //Minify JS
-gulp.task('compress', function (cb) {
-  pump([
-        gulp.src('app/scripts/*.js'),
-        uglify(),
-
-        gulp.dest('dist/assets/scripts')
-        .pipe(sync.stream())
-    ],
-    cb
-  );
+gulp.task('js', function() {
+    return gulp.src('app/scripts/*.js')
+    .pipe(gulp.dest('dist/assets/scripts'))
+    .pipe(sync.stream())
 });
 
-gulp.task('watch-js', function(){
-    gulp.watch('app/scripts/*.js',['compress'])
-});
+// gulp.task('compress', function (cb) {
+//   pump([
+//         gulp.src('app/scripts/*.js'),
+//         uglify(),
+
+//         gulp.dest('dist/assets/scripts')
+//         .pipe(sync.stream())
+//     ],
+//     cb
+//   );
+// });
 
 //IMAGES Compress
 gulp.task('imagemin', function() {
@@ -64,7 +66,7 @@ gulp.task('imagemin', function() {
         .pipe(sync.stream())
 })
 
-gulp.task('build', ['default', 'watch-php', 'watch-js','imagemin'], function()
+gulp.task('build', ['default', 'php', 'js', 'watch-php', 'imagemin'], function()
 {
     sync.init({
         proxy: 'lcac.dev/hetic-p2019-14/dist/',
