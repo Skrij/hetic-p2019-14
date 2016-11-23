@@ -2,6 +2,7 @@ var intro = document.querySelector('.intro');
 var sign = document.querySelector('.action__button--sign');
 var share = document.querySelector('.action__button--share');
 var form = document.querySelector('.form');
+var form_count = document.querySelector('.form__count');
 var submit = document.querySelector('.form__submit');
 var closed_form = document.querySelector('.closed-form');
 var social = document.querySelector('.social');
@@ -33,21 +34,16 @@ share.addEventListener("click", function(){
 */
 
 /*Form: click sur submit */
-/*Get valeur de form__count*/
-var count = 8192413;
+var count = 203;
+var count_text = count.toString();
+form_count.textContent = "8 195 "+count_text;
 submit.addEventListener("click", function(e){
     if (document.querySelector('.form__content').checkValidity() == true) 
     {
-        console.log('VALID');
         count++
         var count_text = count.toString();
-        document.querySelector('.form__count').textContent = count_text;
+        form_count.textContent = "8 195 "+count_text;
     }
-    else
-    {
-        console.log('INVALID');
-    }
-    // e.preventDefault();
 });
 /*Form : click sur close */
 closed_form.addEventListener("click", function(){
@@ -75,7 +71,6 @@ closed_socials.addEventListener("click", function(){
 */
 function close_form()
 {
-	console.log('close');
     form.style.opacity =  '0';
     form.style.zIndex =  '0';
     intro.style.opacity =  '1';
