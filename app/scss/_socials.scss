@@ -13,12 +13,8 @@
     z-index: 0;
     opacity: 0;
     transition: all .2s ease-in;
-    background-color: #eddfc5;
+    background-color: #505759;
     border-radius: 8px;
-    @include medium { 
-	    background-color: #eddfc5;
-	    border-radius: 8px;
-    }
 }
 
 .social__liste {
@@ -38,7 +34,8 @@
 
 .social__text {
     font-size: 18px;
-    color: grey;
+    color: $bleu;
+    font-weight: 400;
 }
 
 .closed-socials {

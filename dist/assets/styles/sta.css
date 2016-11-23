@@ -1323,7 +1323,7 @@ video {
   transition: all .2s ease-in; }
   @media (min-width: 770px) {
     .form {
-      background-color: #eddfc5;
+      background-color: #505759;
       border-radius: 8px; } }
 
 .closed-form {
@@ -1377,7 +1377,7 @@ input {
     input {
       border-bottom: thin solid #1dabac; }
       input.form__submit {
-        color: #eddfc5;
+        color: #505759;
         background-color: #1dabac; } }
 
 .social {
@@ -1404,12 +1404,8 @@ input {
   opacity: 0;
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
-  background-color: #eddfc5;
+  background-color: #505759;
   border-radius: 8px; }
-  @media (min-width: 770px) {
-    .social {
-      background-color: #eddfc5;
-      border-radius: 8px; } }
 
 .social__liste {
   display: -webkit-box;
@@ -1432,7 +1428,8 @@ input {
 
 .social__text {
   font-size: 18px;
-  color: grey; }
+  color: #1dabac;
+  font-weight: 400; }
 
 .closed-socials {
   position: absolute;

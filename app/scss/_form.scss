@@ -14,7 +14,7 @@
     opacity: 0;
     transition: all .2s ease-in;
     @include medium { 
-	    background-color: #eddfc5;
+	    background-color: #505759;
 	    border-radius: 8px;
     }
 }
@@ -62,7 +62,7 @@ input {
 	@include medium {
 		border-bottom: thin solid $bleu;
 		&.form__submit {
-		    color: $grey-bg;
+		    color: #505759;
 		    background-color: $bleu;
 		}
 	}
