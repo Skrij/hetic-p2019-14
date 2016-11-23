@@ -41,7 +41,7 @@ submit.addEventListener("click", function(e){
     if (document.querySelector('.form__content').checkValidity() == true) 
     {
         count++
-        var count_text = count.toString();
+        count_text = count.toString();
         form_count.textContent = "8 195 "+count_text;
     }
 });
