@@ -27,6 +27,7 @@
         text-align: center;
         height: 120px;
         position: absolute;
+        zoom: 120%;
         &.animal__content--1 {
             top: 420px;
             left: 20vw;
@@ -57,18 +58,26 @@
 
 
 .animal__img {
-	img {
-	    border: 10px solid $bleu;
-	    border-radius: 55px;
-	}
+    position: relative;
+    img {padding-top: 8.5px;}
     @include medium {
         &:hover {
             transform: scale(1.1);
             transition: all .3s ease-in;
         }
         transition: all .2s ease-in;
+        img {padding-top: 0;}
+    }
+    .animal__cercle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
 }
+
+
 
 .animal__content--1 .animal__img {animation: 12.05s animals 1.5s ease-in;}
 .animal__content--2 .animal__img {animation: 12.1s animals 1.5s ease-in;}

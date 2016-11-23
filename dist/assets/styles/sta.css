@@ -184,6 +184,59 @@ body {
     -webkit-transform: scale(1);
             transform: scale(1); } }
 
+@-webkit-keyframes cercle {
+  0% {
+    stroke-dashoffset: 10%;
+    fill: none; }
+  65% {
+    fill: none; }
+  75% {
+    fill: #fefefe; } }
+
+@keyframes cercle {
+  0% {
+    stroke-dashoffset: 10%;
+    fill: none; }
+  65% {
+    fill: none; }
+  75% {
+    fill: #fefefe; } }
+
+@-webkit-keyframes cercle- {
+  0% {
+    stroke-dashoffset: 10%;
+    fill: none; }
+  95% {
+    fill: none; } }
+
+@keyframes cercle- {
+  0% {
+    stroke-dashoffset: 10%;
+    fill: none; }
+  95% {
+    fill: none; } }
+
+@-webkit-keyframes cercle-- {
+  0% {
+    stroke-dashoffset: 10%;
+    fill: none; }
+  95% {
+    fill: none; } }
+
+@keyframes cercle-- {
+  0% {
+    stroke-dashoffset: 10%;
+    fill: none; }
+  95% {
+    fill: none; } }
+
+@keyframes cercle-- {
+  0% {
+    stroke-dashoffset: 10%;
+    fill: none; }
+  95% {
+    fill: none; } }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
@@ -2009,7 +2062,8 @@ h1.title__desktop {
       width: auto;
       text-align: center;
       height: 120px;
-      position: absolute; }
+      position: absolute;
+      zoom: 120%; }
       .animal__content.animal__content--1 {
         top: 420px;
         left: 20vw; }
@@ -2028,19 +2082,27 @@ h1.title__desktop {
       .animal__content.animal__content--6 {
         top: 400px; } }
 
-.animal__img img {
-  border: 10px solid #1dabac;
-  border-radius: 55px; }
-
-@media (min-width: 770px) {
-  .animal__img {
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in; }
-    .animal__img:hover {
-      -webkit-transform: scale(1.1);
-              transform: scale(1.1);
-      -webkit-transition: all .3s ease-in;
-      transition: all .3s ease-in; } }
+.animal__img {
+  position: relative; }
+  .animal__img img {
+    padding-top: 8.5px; }
+  @media (min-width: 770px) {
+    .animal__img {
+      -webkit-transition: all .2s ease-in;
+      transition: all .2s ease-in; }
+      .animal__img:hover {
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+        -webkit-transition: all .3s ease-in;
+        transition: all .3s ease-in; }
+      .animal__img img {
+        padding-top: 0; } }
+  .animal__img .animal__cercle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto; }
 
 .animal__content--1 .animal__img {
   -webkit-animation: 12.05s animals 1.5s ease-in;

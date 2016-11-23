@@ -151,6 +151,10 @@
                     <div class="animal__content animal__content--1 morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
                         <button class="animal__img" type="button">
                             <img src="assets/images/narvals.png" alt="animal-narvals">
+                            <svg class="animal__cercle animal__cercle--2" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+                                <path class="cercle" fill="#505759" fill-rule="evenodd" d="M45,0A45,45,0,1,0,90,45,45,45,0,0,0,45,0Zm0,82.5A37.5,37.5,0,1,1,82.5,45,37.5,37.5,0,0,1,45,82.5Z"/>
+                                <path class="cercle4" fill="#1cabac" d="M45,0V7.5A37.5,37.5,0,1,1,10.89,29.42l-6.42-4A45,45,0,1,0,45,0Z" />
+                            </svg>
                         </button>
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
@@ -180,6 +184,10 @@
                     <div class="animal__content animal__content--2 morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
                         <button class="animal__img" type="button">
                             <img src="assets/images/loup.png" alt="animal-loup">
+                            <svg class="animal__cercle animal__cercle--1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+                                <path class="cercle" fill="#505759" fill-rule="evenodd" d="M45,0A45,45,0,1,0,90,45,45,45,0,0,0,45,0Zm0,82.5A37.5,37.5,0,1,1,82.5,45,37.5,37.5,0,0,1,45,82.5Z"/>
+                                <path class="cerlce1" fill="#1cabac" d="M45,0A45,45,0,1,0,90,45,45,45,0,0,0,45,0Zm0,82.5A37.5,37.5,0,1,1,82.5,45,37.5,37.5,0,0,1,45,82.5Z"/>
+                            </svg>
                         </button>
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
@@ -210,6 +218,10 @@
                     <div class="animal__content animal__content--3 morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
                         <button class="animal__img" type="button">
                             <img src="assets/images/balaine.png" alt="animal-balaine">
+                            <svg class="animal__cercle animal__cercle--2" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+                                <path class="cercle" fill="#505759" fill-rule="evenodd" d="M45,0A45,45,0,1,0,90,45,45,45,0,0,0,45,0Zm0,82.5A37.5,37.5,0,1,1,82.5,45,37.5,37.5,0,0,1,45,82.5Z"/>
+                                <path class="cercle3" fill="#1cabac" d="M79.43,30.13l6.75-3.28A45,45,0,0,0,45,0V7.5A37.5,37.5,0,0,1,79.43,30.13Z"/>
+                            </svg>
                         </button>
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
@@ -238,6 +250,10 @@
                     <div class="animal__content animal__content--4 morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
                         <button class="animal__img" type="button">
                             <img src="assets/images/ours.png" alt="animal-ours">
+                            <svg class="animal__cercle animal__cercle--2" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+                                <path class="cercle" fill="#505759" fill-rule="evenodd" d="M45,0A45,45,0,1,0,90,45,45,45,0,0,0,45,0Zm0,82.5A37.5,37.5,0,1,1,82.5,45,37.5,37.5,0,0,1,45,82.5Z"/>
+                                <path class="cercle2" fill="#1cabac" d="M82.5,45H90A45,45,0,0,0,45,0V7.5A37.5,37.5,0,0,1,82.5,45Z"/>
+                            </svg>
                         </button>
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
@@ -267,6 +283,10 @@
                     <div class="animal__content animal__content--5 morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
                         <button class="animal__img" type="button">
                             <img src="assets/images/seal.png" alt="animal-seal">
+                            <svg class="animal__cercle animal__cercle--1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+                                <path class="cercle" fill="#505759" fill-rule="evenodd" d="M45,0A45,45,0,1,0,90,45,45,45,0,0,0,45,0Zm0,82.5A37.5,37.5,0,1,1,82.5,45,37.5,37.5,0,0,1,45,82.5Z"/>
+                                <path class="cercle1" fill="#1cabac" d="M45,0A45,45,0,1,0,90,45,45,45,0,0,0,45,0Zm0,82.5A37.5,37.5,0,1,1,82.5,45,37.5,37.5,0,0,1,45,82.5Z"/>
+                            </svg>
                         </button>
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">
@@ -295,6 +315,9 @@
                     <div class="animal__content animal__content--6 morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
                         <button class="animal__img" type="button">
                             <img src="assets/images/morse.png" alt="animal-morse">
+                            <svg class="animal__cercle animal__cercle--2" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+                                <path class="cercle" fill="#505759" fill-rule="evenodd" d="M45,0A45,45,0,1,0,90,45,45,45,0,0,0,45,0Zm0,82.5A37.5,37.5,0,1,1,82.5,45,37.5,37.5,0,0,1,45,82.5Z"/>
+                            </svg>
                         </button>
                         <div class="morph-content" style="overflow: scroll">
                             <div class="animal__pop-up">

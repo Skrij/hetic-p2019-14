@@ -50,3 +50,24 @@
   90% {transform: scale(1.1);}
   92% {transform: scale(1);}
 }
+
+@keyframes cercle {
+  0% {stroke-dashoffset: 10%; fill: none;}
+  65% {fill: none;}
+  75% {fill: #fefefe;}
+}
+
+@keyframes cercle- {
+  0% {stroke-dashoffset: 10%; fill: none;}
+  95% {fill: none;}
+}
+
+@keyframes cercle-- {
+  0% {stroke-dashoffset: 10%; fill: none;}
+  95% {fill: none;}
+}
+
+@keyframes cercle-- {
+  0% {stroke-dashoffset: 10%; fill: none;}
+  95% {fill: none;}
+}
