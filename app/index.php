@@ -36,7 +36,7 @@
     <div class="form">
         <i class="material-icons closed-form">clear</i>
         <div class="form__text">
-            <div class="form__count">8192413</div>
+            <div class="form__count"></div>
             personnes ont déjà agi
         </div>
 
