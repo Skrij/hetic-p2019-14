@@ -660,7 +660,6 @@ table {
 .morph-button-fixed > button {
   z-index: 1000;
   width: 100%;
-  height: 100%;
   -webkit-transition: opacity 0.1s 0.5s;
   transition: opacity 0.1s 0.5s; }
 
@@ -1574,7 +1573,7 @@ h1.title__desktop {
     left: 9px; }
     @media (min-width: 770px) {
       .timeline:before {
-        bottom: -50px;
+        bottom: -42px;
         left: 0;
         right: 0;
         margin: auto; } }
