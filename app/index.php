@@ -34,16 +34,15 @@
 
 
     <div class="form">
-
         <div class="form__text">
             <div class="form__count">8192413</div>
             personnes ont déjà agi
         </div>
 
         <form class="form__content" action="#" method="post">
-            <input type="text" name="lastname" placeholder="Nom" required/>
-            <input type="text" name="firstname" placeholder="Prénom" required/>
-            <input type="email" name="email" placeholder="E-mail" required/>
+            <input type="text" name="lastname" placeholder="Nom*" required/>
+            <input type="text" name="firstname" placeholder="Prénom*" required/>
+            <input type="email" name="email" placeholder="E-mail*" required/>
             <input class="form__submit" type="submit" value="Rejoignez le mouvement">
         </form>
 

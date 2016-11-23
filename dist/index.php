@@ -34,7 +34,7 @@
 
 
     <div class="form">
-
+        <a href="#" class="close closed-form">✖</a>
         <div class="form__text">
             <div class="form__count">8192413</div>
             personnes ont déjà agi
@@ -51,6 +51,7 @@
 
 
     <div class="social">
+        <a href="#" class="close closed-socials">✖</a>
         <div class="social__liste">
             <a class="social__link twitter" href="https://twitter.com/share?url=petitionarctique.com&amp;text=J'ai%20sauvé%20l'Arctique.%20Faites%20comme%20moi,%20signez.&amp;hashtags=SaveTheArctic" target="_blank"></a>
             

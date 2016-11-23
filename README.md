@@ -15,7 +15,7 @@ __1. Get the repository and install the dependencies and devDependencies__
   
   ```sh
   $ git clone https://github.com/Skrij/hetic-p2019-14
-  $ cd hetic-p2019-11
+  $ cd hetic-p2019-14
   $ git checkout dev
   $ npm install -d
   ```

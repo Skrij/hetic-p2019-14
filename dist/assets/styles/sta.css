@@ -1193,6 +1193,13 @@ video {
     .intro__more {
       margin-left: 70px; } }
 
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #7F7777;
+  text-decoration: none; }
+
 .intro {
   display: -webkit-box;
   display: -ms-flexbox;
