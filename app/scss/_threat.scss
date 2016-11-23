@@ -1,22 +1,13 @@
-.threats {
-    @include medium {
-        display: flex;
-        .text-container {
-            padding-right: 130px;
-            padding-top: 120px;
-        }
-    }
-}
-
 .threats__liste {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 30px; 
     @include medium {
-        width: 60vw;
-        padding: 120px 0 0 ;
+        width: 70vw;
+        margin: auto;
         justify-content: center;
+        padding-bottom: 50px;
         .morph-button-modal-2.open .morph-content {
             margin: -250px 0 0 -170px;
             height: 600px;

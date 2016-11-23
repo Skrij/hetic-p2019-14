@@ -1451,9 +1451,6 @@ input {
   font-weight: 400; }
   @media (min-width: 770px) {
     .container__title {
-      position: absolute;
-      text-align: left;
-      left: 80px;
       font-size: 34px; } }
 
 .text-container {
@@ -1868,17 +1865,8 @@ h1.title__desktop {
 
 @media (min-width: 770px) {
   .graph {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
     width: 80vw;
-    margin: 50px auto; } }
+    margin: auto; } }
 
 .graph__img {
   width: 80vw;
@@ -1886,7 +1874,6 @@ h1.title__desktop {
   display: block; }
   @media (min-width: 770px) {
     .graph__img {
-      margin: 50px 0 0;
       width: auto;
       height: 400px;
       -webkit-box-ordinal-group: 3;
@@ -1897,15 +1884,6 @@ h1.title__desktop {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1; }
-
-@media (min-width: 770px) {
-  .threats {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .threats .text-container {
-      padding-right: 130px;
-      padding-top: 120px; } }
 
 .threats__liste {
   display: -webkit-box;
@@ -1918,11 +1896,12 @@ h1.title__desktop {
   margin-bottom: 30px; }
   @media (min-width: 770px) {
     .threats__liste {
-      width: 60vw;
-      padding: 120px 0 0;
+      width: 70vw;
+      margin: auto;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+      padding-bottom: 50px; }
       .threats__liste .morph-button-modal-2.open .morph-content {
         margin: -250px 0 0 -170px;
         height: 600px; } }

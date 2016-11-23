@@ -19,9 +19,6 @@
     width: 70vw;
     font-weight: 400;
     @include medium {
-        position: absolute;
-        text-align: left;
-        left: 80px;
         font-size: 34px;
     }
 }

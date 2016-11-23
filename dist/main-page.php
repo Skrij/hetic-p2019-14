@@ -243,11 +243,11 @@
         <div class="graph">
             <h2 class="container__title"> Une banquise à protéger </h2>    
             <img class="graph__img" src="assets/images/fonte.gif" alt="graph-perte-75%">
-            <p class="graph__text-container text-container"> La banquise joue un rôle critique dans la <span>régulation du climat</span>. Mais en raison des changements climatiques, <span>75% de la surface</span> de la banquise <span>à disparu en 30 ans</span>. </p>
+            <p class="graph__text-container text-container"> La banquise joue un rôle critique dans la <span>régulation du climat</span>. Mais en raison des changements climatiques, <span>75% de la surface</span> de la banquise <span>à disparu en 30 ans</span>. <br>L'Arctique abrite une faune exceptionnelle : <span>ours polaire</span>, <span>renard isatis</span>, <span>morse</span>, <span>narval</span>… Toutes ces espèces ont besoin de la banquise pour <span>survivre</span>. Or celle-ci disparaît à vue d’œil. <br>Sans la banquise, ces espèces sont menacées car elles en ont besoin pour <span>chasser</span>, <span>se reposer</span> et <span>se reproduire</span>. Affaiblies et affamées, les femelles éprouvent des difficultés à se reproduire et les oursons doivent <span>se battre pour atteindre l’âge adulte</span>. Selon les experts, si nous n’intervenons pas maintenant, l’ours polaire pourrait disparaître de l’Arctique dans les 100 prochaines années. Agissez maintenant pour protéger leur habitat.</p>
         </div> <!-- .graph -->
 
         <div class="threats">
-            <h2 class="container__title"> Des menaces à arreter </h2>
+            <h2 class="container__title"> Des menaces à arrêter </h2>
             
             <div class="threats__liste">
                 <div class="threat__content morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">

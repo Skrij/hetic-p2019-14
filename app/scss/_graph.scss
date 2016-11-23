@@ -1,10 +1,7 @@
 .graph {
     @include medium {
-        display: flex;
-        justify-content: space-between;
-        order: 1;
         width: 80vw;
-        margin: 50px auto;
+        margin: auto;
     }
 }
 
@@ -13,7 +10,6 @@
     margin: 0 auto 40px;
     display: block;
     @include medium {
-        margin: 50px 0 0;
         width: auto;
         height: 400px;
         order: 2;
