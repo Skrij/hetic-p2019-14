@@ -89,3 +89,12 @@ function close_social()
     intro.style.opacity =  '1';
 }
 
+
+$('.evolution').waypoint(function() {
+  handler: function(direction) {
+    this.addClass('evolution-animation');
+  },
+  offset: function() {
+    return -this.element.clientHeight
+  }
+});

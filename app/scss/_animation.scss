@@ -28,7 +28,8 @@
 
 @keyframes cls {
   0% {stroke-dashoffset: 1770; fill: none;}
-  95% {fill: none;}
+  65% {fill: none;}
+  75% {fill: #fefefe;}
 }
 
 @keyframes cls- {
@@ -41,4 +42,11 @@
   0% {stroke-dashoffset: 1300; fill: none;}
   70% {stroke-dashoffset: 1300;}
   95% {fill: none;}
+}
+
+@keyframes animals {
+  0% {transform: scale(0);}
+  88% {transform: scale(0);}
+  90% {transform: scale(1.1);}
+  92% {transform: scale(1);}
 }

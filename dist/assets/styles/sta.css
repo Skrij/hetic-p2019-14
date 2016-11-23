@@ -106,15 +106,19 @@ body {
   0% {
     stroke-dashoffset: 1770;
     fill: none; }
-  95% {
-    fill: none; } }
+  65% {
+    fill: none; }
+  75% {
+    fill: #fefefe; } }
 
 @keyframes cls {
   0% {
     stroke-dashoffset: 1770;
     fill: none; }
-  95% {
-    fill: none; } }
+  65% {
+    fill: none; }
+  75% {
+    fill: #fefefe; } }
 
 @-webkit-keyframes cls- {
   0% {
@@ -151,6 +155,34 @@ body {
     stroke-dashoffset: 1300; }
   95% {
     fill: none; } }
+
+@-webkit-keyframes animals {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  88% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  90% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+  92% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes animals {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  88% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  90% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+  92% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
@@ -1844,8 +1876,8 @@ h1.title__desktop {
 
 .evolution {
   position: relative;
-  -webkit-animation: map 4.5s;
-          animation: map 4.5s; }
+  -webkit-animation: map 4s;
+          animation: map 4s; }
 
 .evolution__svg-container {
   width: 100vw;
@@ -1877,20 +1909,20 @@ h1.title__desktop {
         stroke-dasharray: 1770;
         stroke-dashoffset: 0;
         fill: #fefefe;
-        -webkit-animation: 6s cls 2s linear;
-                animation: 6s cls 2s linear; }
+        -webkit-animation: 8s cls 1.5s linear;
+                animation: 8s cls 1.5s linear; }
       .svg__content--2 .cls-2 {
         stroke-dasharray: 3500;
         stroke-dashoffset: 0;
         fill: rgba(154, 44, 57, 0.7);
-        -webkit-animation: cls- 9s linear;
-                animation: cls- 9s linear; }
+        -webkit-animation: cls- 12s linear;
+                animation: cls- 12s linear; }
       .svg__content--2 .cls-3 {
         stroke-dasharray: 1300;
         stroke-dashoffset: 0;
         fill: rgba(29, 171, 172, 0.7);
-        -webkit-animation: cls-- 12s linear;
-                animation: cls-- 12s linear; } }
+        -webkit-animation: cls-- 9s linear;
+                animation: cls-- 9s linear; } }
 
 .evolution__caption {
   margin-top: -125px;
@@ -1908,9 +1940,18 @@ h1.title__desktop {
     top: 0;
     left: 0;
     z-index: -1; }
+  .evolution__caption .caption__content--1 {
+    -webkit-animation: 4s map 1.5s linear;
+            animation: 4s map 1.5s linear; }
+  .evolution__caption .caption__content--2 {
+    -webkit-animation: map 9s linear;
+            animation: map 9s linear; }
+  .evolution__caption .caption__content--3 {
+    -webkit-animation: map 12s linear;
+            animation: map 12s linear; }
   @media (min-width: 770px) {
     .evolution__caption {
-      margin-top: -250px;
+      margin-top: -310px;
       margin-bottom: 280px;
       margin-left: 150px; } }
 
@@ -2000,6 +2041,30 @@ h1.title__desktop {
               transform: scale(1.1);
       -webkit-transition: all .3s ease-in;
       transition: all .3s ease-in; } }
+
+.animal__content--1 .animal__img {
+  -webkit-animation: 12.05s animals 1.5s ease-in;
+          animation: 12.05s animals 1.5s ease-in; }
+
+.animal__content--2 .animal__img {
+  -webkit-animation: 12.1s animals 1.5s ease-in;
+          animation: 12.1s animals 1.5s ease-in; }
+
+.animal__content--3 .animal__img {
+  -webkit-animation: 12s animals 1.5s ease-in;
+          animation: 12s animals 1.5s ease-in; }
+
+.animal__content--4 .animal__img {
+  -webkit-animation: 12.2s animals 1.5s ease-in;
+          animation: 12.2s animals 1.5s ease-in; }
+
+.animal__content--5 .animal__img {
+  -webkit-animation: 12.15s animals 1.5s ease-in;
+          animation: 12.15s animals 1.5s ease-in; }
+
+.animal__content--6 .animal__img {
+  -webkit-animation: 12.25s animals 1.5s ease-in;
+          animation: 12.25s animals 1.5s ease-in; }
 
 .animal__pop-up {
   display: -webkit-box;

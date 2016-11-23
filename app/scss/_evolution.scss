@@ -1,6 +1,6 @@
 .evolution {
     position: relative;
-     animation: map 4.5s; 
+     animation: map 4s; 
 }
 
 .evolution__svg-container {
@@ -34,19 +34,19 @@
           stroke-dasharray: 1770;
           stroke-dashoffset: 0;
           fill: #fefefe;
-          animation: 6s cls 2s linear;
+          animation: 8s cls 1.5s linear;
       }
       .cls-2 {
           stroke-dasharray: 3500;
           stroke-dashoffset: 0;
           fill: rgba(154,44,57,0.7);
-          animation: cls- 9s linear;
+          animation: cls- 12s linear;
       }
       .cls-3 {
           stroke-dasharray: 1300;
           stroke-dashoffset: 0;
           fill: rgba(29,171,172,0.7);
-          animation: cls-- 12s linear;
+          animation: cls-- 9s linear;
       }
   }
 }
@@ -68,8 +68,17 @@
         left: 0;
         z-index: -1;
     }
+    .caption__content--1 {
+      animation: 4s map 1.5s linear;
+    }
+    .caption__content--2 {
+      animation: map 9s linear;
+    }
+    .caption__content--3 {
+      animation: map 12s linear;
+    }
     @include medium {
-      margin-top: -250px;
+      margin-top: -310px;
       margin-bottom: 280px;
       margin-left: 150px;
     }
