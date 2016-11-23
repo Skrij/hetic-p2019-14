@@ -179,7 +179,7 @@
 .morph-button-modal-2 .morph-content,
 .morph-button-modal-3 > button,
 .morph-button-modal-3 .morph-content {
-	background-color: #5f545a;
+	background-color: #505759;
 	@include medium {
         background-color: transparent;
     }
@@ -298,7 +298,7 @@
 	top: 50%;
 	left: 50%;
 	width: 220px;
-	background-color: #5f545a;
+	background-color: #505759;
 	-webkit-transition: height 0.3s, width 0.3s, -webkit-transform 0.3s;
 	transition: height 0.3s, width 0.3s, transform 0.3s;
 	-webkit-transform: translateX(-50%) translateY(-50%);
