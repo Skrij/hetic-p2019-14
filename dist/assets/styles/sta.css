@@ -86,6 +86,72 @@ body {
     opacity: 1;
     padding-top: 0; } }
 
+@-webkit-keyframes map {
+  0% {
+    opacity: 0; }
+  70% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes map {
+  0% {
+    opacity: 0; }
+  70% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes cls {
+  0% {
+    stroke-dashoffset: 1770;
+    fill: none; }
+  95% {
+    fill: none; } }
+
+@keyframes cls {
+  0% {
+    stroke-dashoffset: 1770;
+    fill: none; }
+  95% {
+    fill: none; } }
+
+@-webkit-keyframes cls- {
+  0% {
+    stroke-dashoffset: 3500;
+    fill: none; }
+  70% {
+    stroke-dashoffset: 3500; }
+  95% {
+    fill: none; } }
+
+@keyframes cls- {
+  0% {
+    stroke-dashoffset: 3500;
+    fill: none; }
+  70% {
+    stroke-dashoffset: 3500; }
+  95% {
+    fill: none; } }
+
+@-webkit-keyframes cls-- {
+  0% {
+    stroke-dashoffset: 1300;
+    fill: none; }
+  70% {
+    stroke-dashoffset: 1300; }
+  95% {
+    fill: none; } }
+
+@keyframes cls-- {
+  0% {
+    stroke-dashoffset: 1300;
+    fill: none; }
+  70% {
+    stroke-dashoffset: 1300; }
+  95% {
+    fill: none; } }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
@@ -1657,7 +1723,8 @@ h1.title__desktop {
       width: 15vw; } }
 
 .material-icons {
-  font-size: 48px !important; }
+  font-size: 48px !important;
+  cursor: pointer; }
 
 .timeline {
   padding-top: 45px;
@@ -1776,7 +1843,9 @@ h1.title__desktop {
       font-size: 20px; } }
 
 .evolution {
-  position: relative; }
+  position: relative;
+  -webkit-animation: map 4.5s;
+          animation: map 4.5s; }
 
 .evolution__svg-container {
   width: 100vw;
@@ -1789,11 +1858,39 @@ h1.title__desktop {
     height: 575px; }
     @media (min-width: 770px) {
       .evolution__svg-container .svg__content--1 {
-        background-image: url("../images/banquise-desk.png");
+        display: none;
         height: 1000px; } }
   @media (min-width: 770px) {
     .evolution__svg-container {
       height: 1000px; } }
+
+.svg__content--2 {
+  display: none; }
+  @media (min-width: 770px) {
+    .svg__content--2 {
+      display: block;
+      height: 1000px; }
+      .svg__content--2 svg#Calque_1 {
+        margin: auto;
+        display: block; }
+      .svg__content--2 .cls-1 {
+        stroke-dasharray: 1770;
+        stroke-dashoffset: 0;
+        fill: #fefefe;
+        -webkit-animation: 6s cls 2s linear;
+                animation: 6s cls 2s linear; }
+      .svg__content--2 .cls-2 {
+        stroke-dasharray: 3500;
+        stroke-dashoffset: 0;
+        fill: rgba(154, 44, 57, 0.7);
+        -webkit-animation: cls- 9s linear;
+                animation: cls- 9s linear; }
+      .svg__content--2 .cls-3 {
+        stroke-dasharray: 1300;
+        stroke-dashoffset: 0;
+        fill: rgba(29, 171, 172, 0.7);
+        -webkit-animation: cls-- 12s linear;
+                animation: cls-- 12s linear; } }
 
 .evolution__caption {
   margin-top: -125px;

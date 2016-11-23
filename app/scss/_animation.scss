@@ -19,3 +19,26 @@
   30% {opacity: 0; padding-top: 20px;}
   100% {opacity: 1; padding-top: 0;}
 }
+
+@keyframes map {
+  0% {opacity: 0}
+  70% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@keyframes cls {
+  0% {stroke-dashoffset: 1770; fill: none;}
+  95% {fill: none;}
+}
+
+@keyframes cls- {
+  0% {stroke-dashoffset: 3500; fill: none;}
+  70% {stroke-dashoffset: 3500;}
+  95% {fill: none;}
+}
+
+@keyframes cls-- {
+  0% {stroke-dashoffset: 1300; fill: none;}
+  70% {stroke-dashoffset: 1300;}
+  95% {fill: none;}
+}

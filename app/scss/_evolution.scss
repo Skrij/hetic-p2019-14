@@ -1,5 +1,6 @@
 .evolution {
-  position: relative;
+    position: relative;
+     animation: map 4.5s; 
 }
 
 .evolution__svg-container {
@@ -12,11 +13,42 @@
         width: 100vw;
         height: 575px;
         @include medium {
-          background-image: url('../images/banquise-desk.png');
+          display: none;
           height: 1000px;
         }
     }
+
     @include medium {height: 1000px;}
+}
+
+.svg__content--2 {
+  display: none;
+  @include medium {
+      display: block;
+      height: 1000px;
+      svg#Calque_1 {
+          margin: auto;
+          display: block;
+      }
+      .cls-1 {
+          stroke-dasharray: 1770;
+          stroke-dashoffset: 0;
+          fill: #fefefe;
+          animation: 6s cls 2s linear;
+      }
+      .cls-2 {
+          stroke-dasharray: 3500;
+          stroke-dashoffset: 0;
+          fill: rgba(154,44,57,0.7);
+          animation: cls- 9s linear;
+      }
+      .cls-3 {
+          stroke-dasharray: 1300;
+          stroke-dashoffset: 0;
+          fill: rgba(29,171,172,0.7);
+          animation: cls-- 12s linear;
+      }
+  }
 }
 
 .evolution__caption {

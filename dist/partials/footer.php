@@ -36,6 +36,7 @@
 				scrollFn();
 
 				[].slice.call( document.querySelectorAll( '.morph-button' ) ).forEach( function( bttn ) {
+					
 					new UIMorphingButton( bttn, {
 						closeEl : '.icon-close',
 						onBeforeOpen : function() {
