@@ -19,6 +19,13 @@
     }
 }
 
+.closed-form {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    &.material-icons {font-size: 35px !important;}
+}
+
 .form__text {
 	color: #fefefe;
 	text-align: center;

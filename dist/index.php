@@ -34,16 +34,16 @@
 
 
     <div class="form">
-        <a href="#" class="close closed-form">✖</a>
+        <i class="material-icons closed-form">clear</i>
         <div class="form__text">
             <div class="form__count">8192413</div>
             personnes ont déjà agi
         </div>
 
         <form class="form__content" action="#" method="post">
-            <input type="text" name="lastname" placeholder="Nom" required/>
-            <input type="text" name="firstname" placeholder="Prénom" required/>
-            <input type="email" name="email" placeholder="E-mail" required/>
+            <input type="text" name="lastname" placeholder="Nom*" required/>
+            <input type="text" name="firstname" placeholder="Prénom*" required/>
+            <input type="email" name="email" placeholder="E-mail*" required/>
             <input class="form__submit" type="submit" value="Rejoignez le mouvement">
         </form>
 
@@ -51,7 +51,7 @@
 
 
     <div class="social">
-        <a href="#" class="close closed-socials">✖</a>
+        <i class="material-icons closed-socials">clear</i>
         <div class="social__liste">
             <a class="social__link twitter" href="https://twitter.com/share?url=petitionarctique.com&amp;text=J'ai%20sauvé%20l'Arctique.%20Faites%20comme%20moi,%20signez.&amp;hashtags=SaveTheArctic" target="_blank"></a>
             

@@ -1192,13 +1192,6 @@ video {
     .intro__more {
       margin-left: 70px; } }
 
-.close {
-  position: absolute;
-  top: 5px;
-  right: 10px;
-  color: #7F7777;
-  text-decoration: none; }
-
 .intro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1333,6 +1326,13 @@ video {
       background-color: #eddfc5;
       border-radius: 8px; } }
 
+.closed-form {
+  position: absolute;
+  top: 7px;
+  right: 7px; }
+  .closed-form.material-icons {
+    font-size: 35px !important; }
+
 .form__text {
   color: #fefefe;
   text-align: center;
@@ -1433,6 +1433,13 @@ input {
 .social__text {
   font-size: 18px;
   color: grey; }
+
+.closed-socials {
+  position: absolute;
+  top: 7px;
+  right: 7px; }
+  .closed-socials.material-icons {
+    font-size: 40px !important; }
 
 .join__container {
   position: fixed;
