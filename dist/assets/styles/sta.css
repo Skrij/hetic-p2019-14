@@ -1367,6 +1367,7 @@ input {
   border: none;
   border-bottom: thin solid #fefefe;
   padding: 5px 10px;
+  color: #fefefe;
   font-size: 18px; }
   input.form__submit {
     color: #1dabac;
