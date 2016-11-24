@@ -8,7 +8,7 @@
             <div class="join-home__content morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
                     <button type="button" class="join__content join__content--sign"> Signez </button>
 
-                    <div class="morph-content" style="overflow: scroll">
+                    <div class="morph-content" style="overflow-y: scroll">
                         <div class="form form--home">
                             <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
                             <div class="form__text">
@@ -29,7 +29,7 @@
                 <div class="join-home__content morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
                     <button type="button" class="join__content join__content--share"> Partager </button>
 
-                    <div class="morph-content" style="overflow: scroll">
+                    <div class="morph-content" style="overflow-y: scroll">
                         <div class="social social--home">
                             <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
                             <div class="social__liste">
@@ -156,7 +156,7 @@
                                 <path class="cercle4" fill="#1cabac" d="M45,0V7.5A37.5,37.5,0,1,1,10.89,29.42l-6.42-4A45,45,0,1,0,45,0Z" />
                             </svg>
                         </button>
-                        <div class="morph-content" style="overflow: scroll">
+                        <div class="morph-content" style="overflow-y: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
 
@@ -189,7 +189,7 @@
                                 <path class="cerlce1" fill="#1cabac" d="M45,0A45,45,0,1,0,90,45,45,45,0,0,0,45,0Zm0,82.5A37.5,37.5,0,1,1,82.5,45,37.5,37.5,0,0,1,45,82.5Z"/>
                             </svg>
                         </button>
-                        <div class="morph-content" style="overflow: scroll">
+                        <div class="morph-content" style="overflow-y: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
 
@@ -223,7 +223,7 @@
                                 <path class="cercle3" fill="#1cabac" d="M79.43,30.13l6.75-3.28A45,45,0,0,0,45,0V7.5A37.5,37.5,0,0,1,79.43,30.13Z"/>
                             </svg>
                         </button>
-                        <div class="morph-content" style="overflow: scroll">
+                        <div class="morph-content" style="overflow-y: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
 
@@ -255,7 +255,7 @@
                                 <path class="cercle2" fill="#1cabac" d="M82.5,45H90A45,45,0,0,0,45,0V7.5A37.5,37.5,0,0,1,82.5,45Z"/>
                             </svg>
                         </button>
-                        <div class="morph-content" style="overflow: scroll">
+                        <div class="morph-content" style="overflow-y: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
 
@@ -288,7 +288,7 @@
                                 <path class="cercle1" fill="#1cabac" d="M45,0A45,45,0,1,0,90,45,45,45,0,0,0,45,0Zm0,82.5A37.5,37.5,0,1,1,82.5,45,37.5,37.5,0,0,1,45,82.5Z"/>
                             </svg>
                         </button>
-                        <div class="morph-content" style="overflow: scroll">
+                        <div class="morph-content" style="overflow-y: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
 
@@ -319,7 +319,7 @@
                                 <path class="cercle" fill="#505759" fill-rule="evenodd" d="M45,0A45,45,0,1,0,90,45,45,45,0,0,0,45,0Zm0,82.5A37.5,37.5,0,1,1,82.5,45,37.5,37.5,0,0,1,45,82.5Z"/>
                             </svg>
                         </button>
-                        <div class="morph-content" style="overflow: scroll">
+                        <div class="morph-content" style="overflow-y: scroll">
                             <div class="animal__pop-up">
                                 <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
 
@@ -366,7 +366,7 @@
                     </button>
                     <div class="threat__title"> Shell </div>
 
-                    <div class="morph-content" style="overflow: scroll">
+                    <div class="morph-content" style="overflow-y: scroll">
                         <div class="threat__pop-up">
                             <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
                             <div class="threat__info"> <span>Shell</span> est l’une des plus grandes sociétés énergétiques de la planète. <br><br>
@@ -386,7 +386,7 @@
                     </button>
                     <div class="threat__title"> Statoil </div>
 
-                    <div class="morph-content" style="overflow: scroll">
+                    <div class="morph-content" style="overflow-y: scroll">
                         <div class="threat__pop-up">
                             <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
                             <div class="threat__info"> <span>Statoil</span> est une société pétrolières norvégienne qui est connue pour ses normes sur le forage offshore. <br><br>
@@ -410,7 +410,7 @@
                     </button>
                     <div class="threat__title"> Rosneft </div>
 
-                    <div class="morph-content" style="overflow: scroll">
+                    <div class="morph-content" style="overflow-y: scroll">
                         <div class="threat__pop-up">
                             <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
                             <div class="threat__info"> <span>Rosnet</span> se démarque par les marées noires terrestres dont elle est la source en Arctique. Elle détruit la vie de milliers de personnes et anéantit une région entière. <br><br>
@@ -432,7 +432,7 @@
                     </button>
                     <div class="threat__title"> Gazprom </div>
 
-                    <div class="morph-content" style="overflow: scroll">
+                    <div class="morph-content" style="overflow-y: scroll">
                         <div class="threat__pop-up">
                             <span class="icon icon-close"> <i class="material-icons">clear</i> </span>
                             <div class="threat__info"> <span>Gazprom</span> est la plus grande menace pour l’Arctique. Ils ont lancé des forages industriels au second trimestre 2013 à Prirazlomonoe. <br><br>
@@ -479,13 +479,14 @@
 
             
             <div class="join-us__social">
-                <a href="javascript();">
+                <a href="http://www.facebook.com/sharer.php?u=petitionarctique.com" target="_blank">
                     <img class="social-media" src="assets/images/fb.png" alt="facebook">
                 </a>
-                <a href="javascript();">
+                <a href="https://twitter.com/share?url=petitionarctique.com&amp;text=J'ai%20sauvé%20l'Arctique.%20Faites%20comme%20moi,%20signez.&amp;hashtags=SaveTheArctic" target="_blank">
                     <img class="social-media" src="assets/images/twitter.png" alt="twitter">
+
                 </a>
-                <a href="javascript();">
+                <a href="https://plus.google.com/share?url=petitionarctique.com" target="_blank">
                     <img class="social-media" src="assets/images/gplus.png" alt="google+">
                 </a>
             </div>
