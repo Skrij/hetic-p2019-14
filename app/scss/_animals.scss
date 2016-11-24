@@ -1,0 +1,171 @@
+.container__title--animals {
+    @include medium {
+        display: none;
+    }
+
+}
+
+.animals__liste {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .morph-button-modal-2.open .morph-content {
+        @include medium {
+            margin: -250px 0 0 -570px;
+            height: 550px;
+            width: 70vw !important;
+        }   
+    }
+}
+
+.animal__content {
+    width: 40vw;
+    text-align: center;
+    height: 120px;
+    @include medium {
+        width: auto;
+        text-align: center;
+        height: 120px;
+        position: absolute;
+        zoom: 120%;
+        &.animal__content--1 {
+            top: 420px;
+            left: 20vw;
+        }
+        &.animal__content--2 {
+            right: 25vw;
+            top: 140px;
+        }
+        &.animal__content--3 {
+            top: 0;
+            margin-left: -80px;
+        }
+        &.animal__content--4 {
+            top: 200px;
+            margin-left: -20px;
+        }
+        &.animal__content--5 {
+            top: 250px;
+            left: 24vw;
+        }
+        &.animal__content--6 {
+            top: 400px;
+        }
+        
+    }
+}
+
+
+
+.animal__img {
+    position: relative;
+    img {padding-top: 8.5px;}
+    @include medium {
+        &:hover {
+            transform: scale(1.1);
+            transition: all .3s ease-in;
+        }
+        transition: all .2s ease-in;
+        img {padding-top: 0;}
+    }
+    .animal__cercle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+
+
+.animal__content--1 .animal__img {animation: 12.05s animals 1.5s ease-in;}
+.animal__content--2 .animal__img {animation: 12.1s animals 1.5s ease-in;}
+.animal__content--3 .animal__img {animation: 12s animals 1.5s ease-in;}
+.animal__content--4 .animal__img {animation: 12.2s animals 1.5s ease-in;}
+.animal__content--5 .animal__img {animation: 12.15s animals 1.5s ease-in;}
+.animal__content--6 .animal__img {animation: 12.25s animals 1.5s ease-in;}
+
+.animal__pop-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    .animal__img {
+        padding: 40px 0 20px;
+        @include medium {display: none;}
+    }
+    @include medium {
+        height: 550px !important;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        font-size: 18px;
+    }
+}
+.animal__info {
+    padding-bottom: 10px;
+    span {
+        color: $bleu;
+        font-weight: 400;
+    }
+    @include medium {
+        width: 50%;
+        order: 1;
+        text-align: justify;
+    }
+}
+
+.animal__stats {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    width: 300px;
+    .stats__num {
+        color: $bleu;
+        font-weight: 400;
+        text-align: center;
+        padding: 5px 0;
+        @include medium {padding: 5px 0 5px 5px;}
+    }
+    @include medium {
+        li {
+            display: flex;
+            width: 22vw;
+            justify-content: flex-end;
+            align-items: center;
+        }
+    }
+}
+
+.morph-button-modal.open .morph-content {
+    background-color: #505759;
+}
+.morph-button-modal {
+    background-color: transparent;
+}
+
+.animal-pop-up__desk {
+    display: none;
+    @include medium {
+        display: block;
+        span {
+            color: $bleu;
+            font-weight: 400;
+        }
+    }
+}
+
+.animal__img--desktop {
+    display: none;
+    @include medium{
+        display: initial;
+        img {
+            width: 400px;
+            height: auto;
+            padding-bottom: 20px;
+        }
+    }
+}

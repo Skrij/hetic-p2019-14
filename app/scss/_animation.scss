@@ -1,0 +1,73 @@
+@keyframes fleche-mob {
+  0% {height: 1%;}
+  100% {height: 97%;}
+}
+
+@keyframes fleche-desk {
+  0% {height: 1%;}
+  100% {height: 85%;}
+}
+
+@keyframes fleche {
+  0% {opacity: 0}
+  70% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@keyframes timeline {
+  0% {opacity: 0; padding-top: 20px;}
+  30% {opacity: 0; padding-top: 20px;}
+  100% {opacity: 1; padding-top: 0;}
+}
+
+@keyframes map {
+  0% {opacity: 0}
+  70% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@keyframes cls {
+  0% {stroke-dashoffset: 1770; fill: none;}
+  65% {fill: none;}
+  75% {fill: #fefefe;}
+}
+
+@keyframes cls- {
+  0% {stroke-dashoffset: 3500; fill: none;}
+  70% {stroke-dashoffset: 3500;}
+  95% {fill: none;}
+}
+
+@keyframes cls-- {
+  0% {stroke-dashoffset: 1300; fill: none;}
+  70% {stroke-dashoffset: 1300;}
+  95% {fill: none;}
+}
+
+@keyframes animals {
+  0% {transform: scale(0);}
+  88% {transform: scale(0);}
+  90% {transform: scale(1.1);}
+  92% {transform: scale(1);}
+}
+
+@keyframes cercle {
+  0% {stroke-dashoffset: 10%; fill: none;}
+  65% {fill: none;}
+  75% {fill: #fefefe;}
+}
+
+@keyframes cercle- {
+  0% {stroke-dashoffset: 10%; fill: none;}
+  95% {fill: none;}
+}
+
+@keyframes cercle-- {
+  0% {stroke-dashoffset: 10%; fill: none;}
+  95% {fill: none;}
+}
+
+@keyframes cercle-- {
+  0% {stroke-dashoffset: 10%; fill: none;}
+  95% {fill: none;}
+}

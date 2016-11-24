@@ -1,0 +1,114 @@
+.evolution {
+    position: relative;
+     animation: map 4s; 
+}
+
+.evolution__svg-container {
+    width: 100vw;
+    height: 550px;
+    .svg__content--1 {
+        background-image: url('../images/banquise-mob.png');
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+        width: 100vw;
+        height: 575px;
+        @include medium {
+          display: none;
+          height: 1000px;
+        }
+    }
+
+    @include medium {height: 1000px;}
+}
+
+.svg__content--2 {
+  display: none;
+  @include medium {
+      display: block;
+      height: 1000px;
+      svg#Calque_1 {
+          margin: auto;
+          display: block;
+      }
+      .cls-1 {
+          stroke-dasharray: 1770;
+          stroke-dashoffset: 0;
+          fill: #fefefe;
+          animation: 8s cls 1.5s linear;
+      }
+      .cls-2 {
+          stroke-dasharray: 3500;
+          stroke-dashoffset: 0;
+          fill: rgba(154,44,57,0.7);
+          animation: cls- 12s linear;
+      }
+      .cls-3 {
+          stroke-dasharray: 1300;
+          stroke-dashoffset: 0;
+          fill: rgba(29,171,172,0.7);
+          animation: cls-- 9s linear;
+      }
+  }
+}
+
+.evolution__caption {
+    margin-top: -125px;
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 1;
+    &:after {
+        content: '';
+        position: absolute;
+        width: 190px;
+        height: 90px;
+        background-color: #505759;
+        border-radius: 10px;
+        opacity: 0.6;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .caption__content--1 {
+      animation: 4s map 1.5s linear;
+    }
+    .caption__content--2 {
+      animation: map 9s linear;
+    }
+    .caption__content--3 {
+      animation: map 12s linear;
+    }
+    @include medium {
+      margin-top: -310px;
+      margin-bottom: 280px;
+      margin-left: 150px;
+    }
+}
+
+.caption__content {
+    font-size: 14px;
+    padding: 5px 35px;
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      background-color: #fefefe;
+      width: 15px;
+      height: 10px;
+      border-radius: 3px;
+      left: 11px;
+      top: 8px;
+      @include medium {
+        width: 25px;
+        height: 15px;
+        left: 0;
+        top: 13px;
+      }
+    }
+    &.caption__content--2::after {
+      background-color: #8bd5d6;
+    }
+    &.caption__content--3::after {
+      background-color: #a56b72;
+    }
+    @include medium {font-size: 24px;}
+}

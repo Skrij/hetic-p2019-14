@@ -1,0 +1,112 @@
+.timeline {
+    padding-top: 45px;
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        background-color: $bleu;
+        width: 3px;
+        height: 97%;
+        left: 20px;
+        top: 0;
+        animation: fleche-mob 3s;
+        @include medium {
+            left: 0;
+            top: 150px;
+            right: 0;
+            margin: auto;
+            height: 85%;
+            animation: fleche-desk 3s;
+        }
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 45px;
+        background-image: url('../images/flèche.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        bottom: 0;
+        left: 9px;
+        animation: fleche 3.3s;
+        @include medium {
+            bottom: -42px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        } 
+    }
+    @include medium {margin-bottom: 100px;}
+}
+
+.timeline__title {
+    padding: 35px 0 20px 35px;
+    font-weight: 500;
+    font-size: 20px;
+    @include medium {
+        font-size: 34px;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+}
+
+.timeline-liste__container {
+    list-style: none;
+    position: relative;
+    padding: 0 10px 20px 10px;
+    .timeline-liste__date {
+    	font-weight: 500;
+        @include medium {font-size: 24px;}
+    }
+    &:nth-child(1) {animation: timeline 2s;}
+    &:nth-child(2) {animation: timeline 3s;}
+    &:nth-child(3) {animation: timeline 4s;}
+    &:nth-child(4) {animation: timeline 5s;}
+    &:after {
+        content: '';
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        border-radius: 10px;
+        background-color: $bleu;
+        left: -27px;
+        top: 0;
+    }
+    @include medium {
+        &:nth-child(odd) {
+            text-align: right;
+            padding-right: 52vw;
+            padding-left: 50px;
+            &:after {
+                right: 0;
+                left: 0;
+                margin: auto;
+            }
+        }
+        &:nth-child(even) {
+            padding-left: 52vw;
+            padding-right: 71px;
+            &:after {
+                right: 0;
+                left: 0;
+                margin: auto;
+            }
+        }
+    }
+}
+
+.timeline__liste {
+    @include medium {padding: 0;}
+}
+
+.timeline-liste__content {
+    font-size: 14px;
+    padding: 5px; 
+    span {
+        color: $bleu;
+        font-weight: 400;
+    }
+    @include medium {font-size: 20px;}
+}
